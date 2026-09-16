@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TruthLens - Verify Before You Share</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            🔎 TruthLens
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                🛡️ Evidence-Based Fact Checking
+            </div>
+
+            <h1>
+                Think Before You
+                <span>Share.</span>
+            </h1>
+
+            <p>
+                Check claims, messages and information before
+                believing or sharing them.
+            </p>
+
+        </div>
+
+
+        <!-- FACT CHECK CARD -->
+
+        <div class="checker-card">
+
+            <div class="tabs">
+
+                <button
+                    class="tab active"
+                    onclick="showTextChecker()">
+                    📝 Text
+                </button>
+
+                <button
+                    class="tab"
+                    onclick="showImageChecker()">
+                    🖼️ Image
+                </button>
+
+            </div>
+
+
+            <!-- TEXT CHECKER -->
+
+            <div id="textChecker">
+
+                <label for="claim">
+                    Enter a claim or message
+                </label>
+
+                <textarea
+                    id="claim"
+                    placeholder="Paste a claim, WhatsApp message, news statement or social media post here..."
+                ></textarea>
+
+
+                <div class="character-count">
+                    <span id="charCount">0</span> characters
+                </div>
+
+
+                <button
+                    class="check-button"
+                    onclick="checkClaim()">
+
+                    🔍 Fact Check
+
+                </button>
+
+            </div>
+
+
+            <!-- IMAGE CHECKER -->
+
+            <div id="imageChecker" class="hidden">
+
+                <label>
+                    Upload an image or screenshot
+                </label>
+
+                <div
+                    class="upload-area"
+                    onclick="document.getElementById('imageInput').click()">
+
+                    <div class="upload-icon">
+                        📷
+                    </div>
+
+                    <h3>
+                        Upload an image
+                    </h3>
+
+                    <p>
+                        Click here to choose an image
+                    </p>
+
+                    <span>
+                        PNG, JPG or JPEG
+                    </span>
+
+                </div>
+
+
+                <input
+                    type="file"
+                    id="imageInput"
+                    accept="image/png,image/jpeg"
+                    onchange="previewImage(event)"
+                    hidden
+                >
+
+
+                <div id="imagePreviewContainer" class="hidden">
+
+                    <img
+                        id="imagePreview"
+                        alt="Uploaded image"
+                    >
+
+                    <button
+                        class="check-button"
+                        onclick="checkImage()">
+
+                        🔍 Analyze Image
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- RESULT SECTION -->
+
+    <section
+        id="resultSection"
+        class="result-section hidden">
+
+        <div class="result-card">
+
+            <h2>
+                Fact Check Result
+            </h2>
+
+
+            <div
+                id="verdict"
+                class="verdict">
+            </div>
+
+
+            <div class="result-content">
+
+                <h3>
+                    Claim
+                </h3>
+
+                <p id="resultClaim"></p>
+
+
+                <h3>
+                    Explanation
+                </h3>
+
+                <p id="resultExplanation"></p>
+
+
+                <h3>
+                    Category
+                </h3>
+
+                <span
+                    id="resultCategory"
+                    class="category">
+                </span>
+
+
+                <h3>
+                    Source
+                </h3>
+
+                <p id="resultSource"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- HOW IT WORKS -->
+
+    <section
+        class="how-section"
+        id="how-it-works">
+
+        <div class="section-title">
+
+            <span>
+                HOW IT WORKS
+            </span>
+
+            <h2>
+                Verify before you trust.
+            </h2>
+
+        </div>
+
+
+        <div class="steps">
+
+            <div class="step">
+
+                <div class="step-number">
+                    01
+                </div>
+
+                <h3>
+                    Submit
+                </h3>
+
+                <p>
+                    Enter a claim or upload an image
+                    containing information you want to verify.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    02
+                </div>
+
+                <h3>
+                    Analyze
+                </h3>
+
+                <p>
+                    TruthLens checks the submitted information
+                    against its verified claim database.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    03
+                </div>
+
+                <h3>
+                    Understand
+                </h3>
+
+                <p>
+                    Get a clear result, explanation and
+                    source so you can make your own judgment.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ABOUT -->
+
+    <section
+        class="about-section"
+        id="about">
+
+        <div class="about-content">
+
+            <span>
+                ABOUT TRUTHLENS
+            </span>
+
+            <h2>
+                Information should be
+                verified, not blindly shared.
+            </h2>
+
+            <p>
+                TruthLens is a fact-checking concept designed
+                to help people identify misinformation and
+                misleading claims.
+            </p>
+
+            <p>
+                The platform aims to provide evidence and
+                context, especially for sensitive topics such
+                as politics, religion, health and social issues.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div>
+            🔎 <strong>TruthLens</strong>
+        </div>
+
+        <p>
+            Think. Verify. Share Responsibly.
+        </p>
+
+        <p>
+            © 2026 TruthLens
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
