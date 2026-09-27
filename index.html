@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TruthLens | Check the Claim. See the Evidence.</title>
+
+    <meta
+        name="description"
+        content="TruthLens is an India-focused fact-checking platform helping people examine claims through evidence, sources and context."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="brand">
+            <img
+                src="truthlens-logo.png"
+                alt="TruthLens - Facts for a Clearer India"
+                class="brand-logo"
+            >
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="#home">Home</a>
+            <a href="#fact-checks">Fact Checks</a>
+            <a href="#topics">Topics</a>
+            <a href="#explainers">Explainers</a>
+            <a href="#methodology">How We Check</a>
+
+        </nav>
+
+
+        <a href="#submit" class="nav-submit">
+            Submit a Claim
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- ================= MAIN ================= -->
+
+<main id="home">
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <div class="india-pill">
+                <span>●</span>
+                India-focused fact checking
+            </div>
+
+
+            <h1>
+                Check the claim.
+                <strong>See the evidence.</strong>
+            </h1>
+
+
+            <p class="hero-description">
+                TruthLens helps you examine information circulating
+                across India through evidence, reliable sources and context.
+            </p>
+
+
+            <!-- CLAIM CHECKER -->
+
+            <div class="checker">
+
+                <div class="checker-header">
+
+                    <div class="checker-tabs">
+
+                        <button
+                            class="checker-tab active"
+                            data-type="text"
+                        >
+                            <span>✦</span>
+                            Text
+                        </button>
+
+
+                        <button
+                            class="checker-tab"
+                            data-type="image"
+                        >
+                            <span>▧</span>
+                            Image
+                        </button>
+
+
+                        <button
+                            class="checker-tab"
+                            data-type="audio"
+                        >
+                            <span>◉</span>
+                            Audio
+                        </button>
+
+
+                        <button
+                            class="checker-tab"
+                            data-type="video"
+                        >
+                            <span>▶</span>
+                            Video
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checker-body">
+
+                    <textarea
+                        id="claimInput"
+                        placeholder="Paste a claim, message, headline or URL you want to check..."
+                    ></textarea>
+
+
+                    <div
+                        id="uploadArea"
+                        class="upload-area hidden"
+                    >
+
+                        <div class="upload-icon">
+                            ↑
+                        </div>
+
+                        <h3 id="uploadTitle">
+                            Upload an image
+                        </h3>
+
+                        <p id="uploadDescription">
+                            Upload a screenshot or image containing a claim.
+                        </p>
+
+                        <input
+                            type="file"
+                            id="fileInput"
+                            hidden
+                        >
+
+                        <button
+                            type="button"
+                            id="chooseFile"
+                            class="choose-file"
+                        >
+                            Choose File
+                        </button>
+
+                        <div
+                            id="fileName"
+                            class="file-name"
+                        ></div>
+
+                    </div>
+
+
+                    <div class="checker-footer">
+
+                        <span id="checkerHint">
+                            Check information before you share it.
+                        </span>
+
+                        <button
+                            id="checkButton"
+                            class="check-button"
+                        >
+                            Check Claim
+                            <span>→</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <p class="privacy-note">
+                Your claim is used only to perform the requested check.
+            </p>
+
+        </div>
+
+
+        <!-- HERO SIDE -->
+
+        <div class="hero-side">
+
+            <div class="evidence-card">
+
+                <div class="evidence-label">
+                    <span></span>
+                    EVIDENCE FIRST
+                </div>
+
+
+                <h2>
+                    Don't just trust a verdict.
+                </h2>
+
+
+                <p>
+                    Understand what the evidence says,
+                    where it comes from and why an assessment
+                    was reached.
+                </p>
+
+
+                <div class="evidence-process">
+
+                    <div>
+                        <b>01</b>
+                        <span>Identify the claim</span>
+                    </div>
+
+                    <div>
+                        <b>02</b>
+                        <span>Find evidence</span>
+                    </div>
+
+                    <div>
+                        <b>03</b>
+                        <span>Compare sources</span>
+                    </div>
+
+                    <div>
+                        <b>04</b>
+                        <span>Explain the result</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-note">
+
+                <span>TRUTHLENS PRINCIPLE</span>
+
+                <p>
+                    A fact check should show its evidence,
+                    not ask you to trust it blindly.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESULT AREA ================= -->
+
+<section
+    id="resultSection"
+    class="result-section hidden"
+>
+
+    <div class="container">
+
+        <div class="result-card">
+
+            <div class="result-top">
+
+                <span class="result-label">
+                    TRUTHLENS ASSESSMENT
+                </span>
+
+                <span class="demo-badge">
+                    DEMO
+                </span>
+
+            </div>
+
+
+            <div class="result-verdict">
+
+                <span id="resultVerdict">
+                    UNVERIFIED
+                </span>
+
+                <h2 id="resultTitle">
+                    Evidence is required before making an assessment.
+                </h2>
+
+            </div>
+
+
+            <div class="claim-display">
+
+                <small>CLAIM</small>
+
+                <p id="resultClaim"></p>
+
+            </div>
+
+
+            <div class="result-explanation">
+
+                <h3>What does this assessment mean?</h3>
+
+                <p id="resultExplanation">
+                    The live evidence engine will be connected in the
+                    next development phase.
+                </p>
+
+            </div>
+
+
+            <div class="result-columns">
+
+                <div>
+                    <span>THE EVIDENCE</span>
+
+                    <p>
+                        Relevant evidence will appear here.
+                    </p>
+                </div>
+
+
+                <div>
+                    <span>SOURCES</span>
+
+                    <p>
+                        Reliable and relevant sources will appear here.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="result-method">
+
+                <strong>How we reached this assessment</strong>
+
+                <p>
+                    Claim → Evidence → Comparison → Explanation
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= LATEST FACT CHECKS ================= -->
+
+<section
+    id="fact-checks"
+    class="section"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="eyebrow">FACT CHECKS</span>
+
+                <h2>Latest Fact Checks</h2>
+
+                <p>
+                    Explore evidence-based assessments of claims
+                    circulating in public.
+                </p>
+            </div>
+
+
+            <a href="#" class="text-link">
+                View all →
+            </a>
+
+        </div>
+
+
+        <div class="fact-grid" id="latestFactGrid">
+
+            <article class="fact-card">
+
+                <div class="fact-image image-one">
+                    INDIA
+                </div>
+
+                <div class="fact-content">
+
+                    <span class="category">
+                        PUBLIC AFFAIRS
+                    </span>
+
+                    <h3>
+                        Claims about public information need context.
+                    </h3>
+
+                    <p>
+                        See how evidence and original sources can
+                        change the understanding of a claim.
+                    </p>
+
+                    <div class="fact-meta">
+                        <span>TruthLens</span>
+                        <span>Coming soon</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="fact-card">
+
+                <div class="fact-image image-two">
+                    SOCIAL
+                </div>
+
+                <div class="fact-content">
+
+                    <span class="category">
+                        SOCIAL MEDIA
+                    </span>
+
+                    <h3>
+                        A viral post is not automatically evidence.
+                    </h3>
+
+                    <p>
+                        Examine the original context before accepting
+                        or sharing information.
+                    </p>
+
+                    <div class="fact-meta">
+                        <span>TruthLens</span>
+                        <span>Coming soon</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="fact-card">
+
+                <div class="fact-image image-three">
+                    DATA
+                </div>
+
+                <div class="fact-content">
+
+                    <span class="category">
+                        DATA & STATISTICS
+                    </span>
+
+                    <h3>
+                        Numbers need definitions and time periods.
+                    </h3>
+
+                    <p>
+                        A statistic without its original context can
+                        create a misleading impression.
+                    </p>
+
+                    <div class="fact-meta">
+                        <span>TruthLens</span>
+                        <span>Coming soon</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TOPICS ================= -->
+
+<section
+    id="topics"
+    class="section topics-section"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="eyebrow">EXPLORE</span>
+
+                <h2>Explore by Topic</h2>
+
+                <p>
+                    Find fact checks and explainers across areas
+                    that matter in India.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="topic-grid">
+
+            <article class="topic-card">
+                <div class="topic-icon">🇮🇳</div>
+                <h3>Politics & Public Affairs</h3>
+                <p>
+                    Government, policies, elections and public claims.
+                </p>
+            </article>
+
+
+            <article class="topic-card">
+                <div class="topic-icon">🏥</div>
+                <h3>Health</h3>
+                <p>
+                    Health information, medical claims and public health.
+                </p>
+            </article>
+
+
+            <article class="topic-card">
+                <div class="topic-icon">₹</div>
+                <h3>Economy</h3>
+                <p>
+                    Economic data, employment, inflation and finance.
+                </p>
+            </article>
+
+
+            <article class="topic-card">
+                <div class="topic-icon">🔬</div>
+                <h3>Science & Technology</h3>
+                <p>
+                    Scientific discoveries, technology and AI claims.
+                </p>
+            </article>
+
+
+            <article class="topic-card">
+                <div class="topic-icon">🌱</div>
+                <h3>Environment</h3>
+                <p>
+                    Climate, pollution, sustainability and environment.
+                </p>
+            </article>
+
+
+            <article class="topic-card">
+                <div class="topic-icon">⚖️</div>
+                <h3>Law & Constitution</h3>
+                <p>
+                    Legal information, laws and constitutional claims.
+                </p>
+            </article>
+
+
+            <article class="topic-card">
+                <div class="topic-icon">📱</div>
+                <h3>Social Media</h3>
+                <p>
+                    Viral posts, screenshots, images and videos.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPLAINERS ================= -->
+
+<section
+    id="explainers"
+    class="section"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="eyebrow">LEARN</span>
+
+                <h2>Explainers</h2>
+
+                <p>
+                    Understand how information, evidence and
+                    misinformation work.
+                </p>
+            </div>
+
+
+            <a href="#" class="text-link">
+                Explore all →
+            </a>
+
+        </div>
+
+
+        <div class="explainer-grid">
+
+            <article class="explainer-card">
+
+                <span>01</span>
+
+                <h3>
+                    How to verify a viral claim?
+                </h3>
+
+                <p>
+                    A practical guide to checking information
+                    before sharing it.
+                </p>
+
+                <a href="#">
+                    Read explainer →
+                </a>
+
+            </article>
+
+
+            <article class="explainer-card">
+
+                <span>02</span>
+
+                <h3>
+                    Why can statistics be misleading?
+                </h3>
+
+                <p>
+                    Understand definitions, samples, time periods
+                    and missing context.
+                </p>
+
+                <a href="#">
+                    Read explainer →
+                </a>
+
+            </article>
+
+
+            <article class="explainer-card">
+
+                <span>03</span>
+
+                <h3>
+                    How to examine a suspicious image?
+                </h3>
+
+                <p>
+                    Learn the basics of checking visual information
+                    and finding its original context.
+                </p>
+
+                <a href="#">
+                    Read explainer →
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= METHODOLOGY ================= -->
+
+<section
+    id="methodology"
+    class="methodology"
+>
+
+    <div class="container">
+
+        <div class="method-header">
+
+            <span class="eyebrow light">
+                OUR METHODOLOGY
+            </span>
+
+            <h2>
+                How TruthLens checks information
+            </h2>
+
+            <p>
+                A fact check should not be a black box.
+                We want users to understand the path from
+                a claim to an assessment.
+            </p>
+
+        </div>
+
+
+        <div class="method-steps">
+
+            <div class="method-step">
+
+                <div class="number">01</div>
+
+                <h3>Identify</h3>
+
+                <p>
+                    Determine the specific factual claim
+                    that can actually be checked.
+                </p>
+
+            </div>
+
+
+            <div class="method-arrow">→</div>
+
+
+            <div class="method-step">
+
+                <div class="number">02</div>
+
+                <h3>Find Evidence</h3>
+
+                <p>
+                    Look for relevant evidence, prioritising
+                    reliable and original sources.
+                </p>
+
+            </div>
+
+
+            <div class="method-arrow">→</div>
+
+
+            <div class="method-step">
+
+                <div class="number">03</div>
+
+                <h3>Compare</h3>
+
+                <p>
+                    Compare the claim with evidence and
+                    consider relevant context.
+                </p>
+
+            </div>
+
+
+            <div class="method-arrow">→</div>
+
+
+            <div class="method-step">
+
+                <div class="number">04</div>
+
+                <h3>Explain</h3>
+
+                <p>
+                    Present the assessment, reasoning
+                    and supporting sources.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SUBMIT ================= -->
+
+<section
+    id="submit"
+    class="submit-section"
+>
+
+    <div class="container submit-container">
+
+        <div>
+
+            <span class="eyebrow">
+                SUBMIT A CLAIM
+            </span>
+
+            <h2>
+                Found something that needs checking?
+            </h2>
+
+            <p>
+                Send us a claim, message, image or link that
+                you think deserves verification.
+            </p>
+
+        </div>
+
+
+        <button
+            id="submitClaimButton"
+            class="submit-button"
+        >
+            Submit a Claim →
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section
+    id="about"
+    class="section about-section"
+>
+
+    <div class="container about-grid">
+
+        <div>
+
+            <span class="eyebrow">
+                ABOUT TRUTHLENS
+            </span>
+
+            <h2>
+                Information deserves context.
+            </h2>
+
+        </div>
+
+
+        <div class="about-text">
+
+            <p>
+                TruthLens is being built as an India-focused
+                platform for examining claims through evidence,
+                sources and transparent explanations.
+            </p>
+
+            <p>
+                The purpose is not to ask people to blindly
+                trust a verdict. The purpose is to make reliable
+                information easier to find and understand.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-container">
+
+        <div class="footer-brand">
+
+            <div class="brand">
+                <img
+                    src="truthlens-logo.png"
+                    alt="TruthLens - Facts for a Clearer India"
+                    class="footer-logo"
+                >
+            </div>
+
+            <p>
+                Check the claim. See the evidence.
+                Decide for yourself.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#fact-checks">Fact Checks</a>
+            <a href="#topics">Topics</a>
+            <a href="#explainers">Explainers</a>
+            <a href="#methodology">Methodology</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container copyright">
+        © 2026 TruthLens. Evidence first.
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

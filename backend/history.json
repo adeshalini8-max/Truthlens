@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "claim": "India has 50 states.",
+      "verdict": "UNVERIFIED",
+      "confidence": 0,
+      "explanation": "No sufficiently close match was found in the TruthLens manual database and no relevant web evidence was retrieved. The claim remains unverified.",
+      "sources": [],
+      "database_match": false,
+      "checked_by": "TruthLens Live Search"
+    },
+    {
+      "claim": "The Constitution of India came into force on 26 January 1950.",
+      "verdict": "SUPPORTED",
+      "confidence": 100.0,
+      "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+      "topic": "Constitution & Law",
+      "sources": [
+        {
+          "name": "Constitution of India",
+          "url": "https://www.indiacode.nic.in/",
+          "type": "Primary"
+        }
+      ],
+      "database_match": true,
+      "database_id": "TL0037",
+      "checked_by": "TruthLens Manual Database"
+    },
+    {
+      "claim": "india got indepence in 1947.",
+      "verdict": "UNVERIFIED",
+      "confidence": 0,
+      "explanation": "No sufficiently close match was found in the TruthLens manual database and no relevant web evidence was retrieved. The claim remains unverified.",
+      "sources": [],
+      "database_match": false,
+      "checked_by": "TruthLens Live Search"
+    },
+    {
+      "claim": "The Constitution of India came into force on 26 January 1950.",
+      "verdict": "SUPPORTED",
+      "confidence": 100.0,
+      "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+      "topic": "Constitution & Law",
+      "sources": [
+        {
+          "name": "Constitution of India",
+          "url": "https://www.indiacode.nic.in/",
+          "type": "Primary"
+        }
+      ],
+      "database_match": true,
+      "database_id": "TL0037",
+      "checked_by": "TruthLens Manual Database"
+    }
+  ]
+}
