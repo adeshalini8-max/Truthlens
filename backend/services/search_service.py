@@ -1,104 +1,60 @@
+
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import quote
+from ddgs import DDGS
+from urllib.parse import urlparse
 
 
 def search_web(query: str):
-
     query = query.strip()
 
     if not query:
         return []
 
-    # Exact-phrase search
-    search_query = f'"{query}"'
+    results = []
+    seen_urls = set()
 
-    url = (
-        "https://news.google.com/rss/search?"
-        f"q={quote(search_query)}"
-        "&hl=en-IN"
-        "&gl=IN"
-        "&ceid=IN:en"
-    )
-
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
+    # Search for relevant web results, not only exact phrases.
+    queries = [
+        query,
+        f"{query} fact check",
+        f"{query} latest news",
+    ]
 
     try:
-        response = requests.get(
-            url,
-            headers=headers,
-            timeout=10
-        )
+        with DDGS() as ddgs:
+            for search_query in queries:
+                try:
+                    items = ddgs.text(
+                        search_query,
+                        max_results=5
+                    )
 
-        response.raise_for_status()
+                    for item in items:
+                        url = item.get("href") or item.get("url") or ""
 
-        soup = BeautifulSoup(response.text, "xml")
+                        if not url or url in seen_urls:
+                            continue
 
-        results = []
+                        seen_urls.add(url)
+                        domain = urlparse(url).netloc
 
-        for item in soup.find_all("item")[:10]:
+                        results.append({
+                            "title": item.get("title", ""),
+                            "url": url,
+                            "snippet": item.get("body", ""),
+                            "source": domain,
+                            "published": "",
+                            "relevance": 0
+                        })
 
-            title_element = item.find("title")
-            link_element = item.find("link")
-            description_element = item.find("description")
-            pub_date_element = item.find("pubDate")
-            source_element = item.find("source")
+                        if len(results) >= 10:
+                            return results
 
-            title = (
-                title_element.get_text(strip=True)
-                if title_element
-                else ""
-            )
-
-            link = (
-                link_element.get_text(strip=True)
-                if link_element
-                else ""
-            )
-
-            description = (
-                description_element.get_text()
-                if description_element
-                else ""
-            )
-
-            snippet = BeautifulSoup(
-                description,
-                "html.parser"
-            ).get_text(" ", strip=True)
-
-            published = (
-                pub_date_element.get_text(strip=True)
-                if pub_date_element
-                else ""
-            )
-
-            source = (
-                source_element.get_text(strip=True)
-                if source_element
-                else ""
-            )
-
-            results.append({
-                "title": title,
-                "url": link,
-                "snippet": snippet,
-                "published": published,
-                "source": source
-            })
-
-        return results
-
-    except requests.RequestException as e:
-
-        print("SEARCH ERROR:", e)
-
-        return []
+                except Exception as e:
+                    print("SEARCH QUERY ERROR:", e)
 
     except Exception as e:
+        print("WEB SEARCH ERROR:", e)
 
-        print("SEARCH ERROR:", e)
-
-        return []
+    return results
