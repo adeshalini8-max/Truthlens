@@ -1,288 +1,373 @@
 
 import json
 import os
+import re
 from difflib import SequenceMatcher
+from pathlib import Path
 from urllib.parse import urlparse
 
 import torch
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import pipeline
 
 from services.search_service import search_web
 
 
-# ==============================
-# PATHS AND MODEL SETTINGS
-# ==============================
+# =========================================================
+# PATHS AND CONFIGURATION
+# =========================================================
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-DATABASE_PATH = os.path.join(BASE_DIR, "truthlens_database_1000.json")
-HISTORY_PATH = os.path.join(BASE_DIR, "history.json")
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATABASE_PATH = BASE_DIR / "truthlens_database_1000.json"
+HISTORY_PATH = BASE_DIR / "history.json"
 
 MODEL_NAME = "facebook/bart-large-mnli"
+SUPPORT_THRESHOLD = 0.70
+REFUTE_THRESHOLD = 0.70
 
-_tokenizer = None
-_model = None
+_nli_pipeline = None
 
 
-# ==============================
-# LOAD PRETRAINED MODEL
-# ==============================
+# =========================================================
+# MODEL LOADING
+# =========================================================
 
 def load_nli_model():
-    global _tokenizer, _model
+    """Load the NLI model once and reuse it."""
+    global _nli_pipeline
 
-    if _tokenizer is None or _model is None:
-        print("Loading TruthLens evidence analysis model...")
+    if _nli_pipeline is None:
+        device = 0 if torch.cuda.is_available() else -1
 
-        _tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-        _model = AutoModelForSequenceClassification.from_pretrained(
-            MODEL_NAME
+        _nli_pipeline = pipeline(
+            "text-classification",
+            model=MODEL_NAME,
+            tokenizer=MODEL_NAME,
+            device=device,
+            truncation=True
         )
-        _model.eval()
 
-        print("Evidence analysis model loaded.")
-
-    return _tokenizer, _model
+    return _nli_pipeline
 
 
-# ==============================
-# EVIDENCE COMPARISON
-# ==============================
+# =========================================================
+# GENERAL HELPERS
+# =========================================================
 
-def compare_evidence(claim, evidence):
-    """
-    Compare a claim with a search-result snippet.
+def normalize_text(text):
+    """Normalize text for matching."""
+    text = str(text or "").lower()
+    text = re.sub(r"https?://\S+", " ", text)
+    text = re.sub(r"[^a-z0-9\s]", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
 
-    The evidence is the premise and the claim is the hypothesis.
-    Model scores are inference scores, not factual probabilities.
-    """
 
-    if not evidence or len(evidence.strip()) < 20:
-        return {
-            "supports": 0.0,
-            "refutes": 0.0,
-            "neutral": 1.0
-        }
-
-    tokenizer, model = load_nli_model()
-
-    inputs = tokenizer(
-        evidence,
-        claim,
-        return_tensors="pt",
-        truncation=True,
-        max_length=512
-    )
-
-    with torch.no_grad():
-        logits = model(**inputs).logits[0]
-        probabilities = torch.softmax(logits, dim=-1).tolist()
-
-    labels = model.config.id2label
-
-    label_scores = {
-        str(labels[i]).lower(): float(probabilities[i])
-        for i in range(len(probabilities))
+def tokenize(text):
+    """Return useful words from text."""
+    stop_words = {
+        "the", "a", "an", "is", "are", "was", "were",
+        "be", "been", "being", "to", "of", "in", "on",
+        "at", "for", "and", "or", "but", "by", "with",
+        "as", "it", "this", "that", "from", "has", "have",
+        "had", "do", "does", "did", "its", "their", "they",
+        "he", "she", "we", "you", "i", "who", "which"
     }
-
-    def find_score(label_name):
-        for label, score in label_scores.items():
-            if label_name in label:
-                return score
-        return 0.0
 
     return {
-        "supports": find_score("entailment"),
-        "refutes": find_score("contradiction"),
-        "neutral": find_score("neutral")
+        word for word in normalize_text(text).split()
+        if len(word) > 1 and word not in stop_words
     }
 
 
-# ==============================
-# MANUAL DATABASE
-# ==============================
+def safe_float(value, default=0.0):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return default
 
-def load_database():
+
+def get_source_domain(source):
+    """Return a normalized domain for an external source."""
+    url = source.get("url", "")
+
+    if not url:
+        return ""
+
+    try:
+        domain = urlparse(url).netloc.lower()
+        if domain.startswith("www."):
+            domain = domain[4:]
+        return domain
+    except Exception:
+        return ""
+
+
+# =========================================================
+# LOCAL DATABASE
+# =========================================================
+
+def load_local_database():
+    """Load the existing local fact-check database safely."""
+    if not DATABASE_PATH.exists():
+        return []
+
     try:
         with open(DATABASE_PATH, "r", encoding="utf-8") as file:
             data = json.load(file)
 
+        if isinstance(data, list):
+            return data
+
         if isinstance(data, dict):
-            return data.get("records", [])
+            records = data.get("records", [])
+            return records if isinstance(records, list) else []
 
-        return data if isinstance(data, list) else []
-
-    except FileNotFoundError:
-        print("DATABASE ERROR: truthlens_database_1000.json not found")
-    except json.JSONDecodeError:
-        print("DATABASE ERROR: Invalid JSON")
-    except Exception as e:
-        print("DATABASE ERROR:", e)
+    except (OSError, json.JSONDecodeError) as error:
+        print(f"Database loading error: {error}")
 
     return []
 
 
-def similarity_score(user_claim, database_claim):
-    return SequenceMatcher(
-        None,
-        user_claim.lower().strip(),
-        database_claim.lower().strip()
-    ).ratio()
+def retrieve_database_evidence(claim, limit=5):
+    """
+    Retrieve matching local records.
 
-
-def search_manual_database(claim):
-    records = load_database()
-
-    best_match = None
-    best_score = 0.0
+    Local records are useful context but are not counted as
+    independent external websites in the final verdict.
+    """
+    records = load_local_database()
+    claim_normalized = normalize_text(claim)
+    claim_tokens = tokenize(claim)
+    matches = []
 
     for record in records:
-        database_claim = record.get("claim", "").strip()
-
-        if not database_claim:
+        if not isinstance(record, dict):
             continue
 
-        score = similarity_score(claim, database_claim)
+        record_claim = record.get("claim", "")
+        record_normalized = normalize_text(record_claim)
+        record_tokens = tokenize(record_claim)
 
-        if score > best_score:
-            best_score = score
-            best_match = record
-
-    # Use a stricter threshold to reduce accidental fuzzy matches.
-    if best_match and best_score >= 0.90:
-        result = dict(best_match)
-        result["match_score"] = round(best_score * 100, 2)
-        return result
-
-    return None
-
-
-# ==============================
-# HISTORY
-# ==============================
-
-def load_history():
-    try:
-        with open(HISTORY_PATH, "r", encoding="utf-8") as file:
-            data = json.load(file)
-
-        if not isinstance(data, dict):
-            return {"checks": []}
-
-        if not isinstance(data.get("checks"), list):
-            data["checks"] = []
-
-        return data
-
-    except FileNotFoundError:
-        return {"checks": []}
-    except json.JSONDecodeError:
-        print("HISTORY ERROR: Invalid JSON")
-        return {"checks": []}
-    except Exception as e:
-        print("HISTORY ERROR:", e)
-        return {"checks": []}
-
-
-def save_to_history(result):
-    try:
-        history = load_history()
-
-        history["checks"].insert(0, result)
-        history["checks"] = history["checks"][:50]
-
-        with open(HISTORY_PATH, "w", encoding="utf-8") as file:
-            json.dump(
-                history,
-                file,
-                indent=2,
-                ensure_ascii=False
-            )
-
-    except Exception as e:
-        print("HISTORY SAVE ERROR:", e)
-
-
-# ==============================
-# SOURCE HELPERS
-# ==============================
-
-def get_source_domain(source):
-    url = source.get("url", "")
-    domain = urlparse(url).netloc.lower()
-
-    if domain.startswith("www."):
-        domain = domain[4:]
-
-    if domain:
-        return domain
-
-    return source.get("source", "").lower().strip()
-
-
-def analyze_sources(claim, search_results):
-    analyzed_sources = []
-
-    for source in search_results:
-        title = source.get("title", "")
-        snippet = source.get("snippet", "")
-        evidence = f"{title}. {snippet}".strip()
-
-        if len(evidence) < 20:
+        if not record_normalized:
             continue
 
-        try:
-            scores = compare_evidence(claim, evidence)
+        if not claim_tokens:
+            overlap = 0.0
+        else:
+            overlap = len(claim_tokens & record_tokens) / len(claim_tokens)
 
-        except Exception as e:
-            print("EVIDENCE ANALYSIS ERROR:", e)
+        similarity = SequenceMatcher(
+            None,
+            claim_normalized,
+            record_normalized
+        ).ratio()
 
-            scores = {
-                "supports": 0.0,
-                "refutes": 0.0,
-                "neutral": 1.0
-            }
+        score = (0.65 * overlap) + (0.35 * similarity)
 
-        analyzed_sources.append({
-            "title": title,
-            "url": source.get("url", ""),
-            "snippet": snippet,
-            "source": source.get(
-                "source",
-                get_source_domain(source)
+        if score < 0.12:
+            continue
+
+        matches.append({
+            "id": record.get("id"),
+            "title": record_claim,
+            "claim": record_claim,
+            "verdict": record.get("verdict", "UNVERIFIED"),
+            "explanation": record.get("explanation", ""),
+            "topic": record.get("topic", ""),
+            "keywords": record.get("keywords", []),
+            "sources": record.get("sources", []),
+            "verified_date": record.get("verified_date", ""),
+            "url": "",
+            "snippet": (
+                f"Existing database verdict: "
+                f"{record.get('verdict', 'UNVERIFIED')}. "
+                f"{record.get('explanation', '')}"
             ),
-            "published": source.get("published", ""),
-            "relevance": source.get("relevance", 0),
-            "evidence_analysis": scores
+            "source": "TruthLens Local Database",
+            "evidence_type": "local_database",
+            "relevance": round(score, 4)
         })
 
-    return analyzed_sources
+    matches.sort(
+        key=lambda item: item["relevance"],
+        reverse=True
+    )
+
+    return matches[:limit]
 
 
-# ==============================
+# =========================================================
+# LIVE WEB SEARCH
+# =========================================================
+
+def retrieve_web_evidence(claim, limit=10):
+    """Fetch evidence using the existing search service."""
+    try:
+        results = search_web(claim)
+    except Exception as error:
+        print(f"Live search error: {error}")
+        return []
+
+    if not isinstance(results, list):
+        return []
+
+    cleaned_results = []
+    seen_urls = set()
+
+    for result in results:
+        if not isinstance(result, dict):
+            continue
+
+        url = result.get("url", "")
+        title = result.get("title", "")
+        snippet = result.get("snippet", "")
+
+        if not url or not (title or snippet):
+            continue
+
+        normalized_url = url.rstrip("/").lower()
+
+        if normalized_url in seen_urls:
+            continue
+
+        seen_urls.add(normalized_url)
+
+        cleaned_results.append({
+            **result,
+            "title": title,
+            "url": url,
+            "snippet": snippet,
+            "source": result.get("source") or get_source_domain(result),
+            "evidence_type": "web",
+            "relevance": safe_float(result.get("relevance", 0))
+        })
+
+        if len(cleaned_results) >= limit:
+            break
+
+    return cleaned_results
+
+
+# =========================================================
+# NATURAL LANGUAGE INFERENCE
+# =========================================================
+
+def compare_evidence(claim, evidence):
+    """
+    Compare a claim against one evidence passage.
+
+    NLI labels are SUPPORTS, REFUTES and NEUTRAL.
+    Model scores are not factual probabilities.
+    """
+    text = str(evidence or "").strip()
+
+    if not text:
+        return {
+            "supports": 0.0,
+            "refutes": 0.0,
+            "neutral": 1.0,
+            "label": "NEUTRAL"
+        }
+
+    # Avoid passing extremely long webpages/snippets to the model.
+    text = text[:1800]
+
+    try:
+        model = load_nli_model()
+
+        result = model({
+            "text": text,
+            "text_pair": str(claim)
+        })
+
+        if isinstance(result, list):
+            result = result[0]
+
+        label = str(result.get("label", "")).upper()
+        score = safe_float(result.get("score", 0.0))
+
+        scores = {
+            "supports": 0.0,
+            "refutes": 0.0,
+            "neutral": 0.0
+        }
+
+        if "ENTAILMENT" in label or "SUPPORT" in label:
+            scores["supports"] = score
+            scores["label"] = "SUPPORTS"
+
+        elif "CONTRADICTION" in label or "REFUTE" in label:
+            scores["refutes"] = score
+            scores["label"] = "REFUTES"
+
+        else:
+            scores["neutral"] = score
+            scores["label"] = "NEUTRAL"
+
+        return scores
+
+    except Exception as error:
+        print(f"NLI analysis error: {error}")
+
+        return {
+            "supports": 0.0,
+            "refutes": 0.0,
+            "neutral": 1.0,
+            "label": "NEUTRAL",
+            "error": str(error)
+        }
+
+
+def analyze_sources(claim, sources):
+    """Attach NLI scores to each retrieved evidence item."""
+    analyzed = []
+
+    for source in sources:
+        item = dict(source)
+
+        evidence_text = " ".join([
+            str(item.get("title", "")),
+            str(item.get("snippet", "")),
+            str(item.get("explanation", ""))
+        ]).strip()
+
+        item["evidence_analysis"] = compare_evidence(
+            claim,
+            evidence_text
+        )
+
+        item["domain"] = get_source_domain(item)
+
+        analyzed.append(item)
+
+    return analyzed
+
+
+# =========================================================
 # VERDICT DECISION
-# ==============================
+# =========================================================
 
 def decide_verdict(sources):
     """
-    Aggregate evidence by distinct domain.
+    Decide a verdict using independent external domains.
 
-    Multiple pages from the same domain count as one domain.
-    Conflicting evidence results in UNVERIFIED.
+    Local database entries do not count as external sources.
+    Strong evidence on both sides results in UNVERIFIED.
     """
-
     domain_scores = {}
 
     for source in sources:
-        scores = source.get("evidence_analysis", {})
+        if source.get("evidence_type") == "local_database":
+            continue
+
         domain = get_source_domain(source)
 
         if not domain:
             continue
 
-        support = scores.get("supports", 0.0)
-        refute = scores.get("refutes", 0.0)
+        analysis = source.get("evidence_analysis", {})
+
+        support = safe_float(analysis.get("supports"))
+        refute = safe_float(analysis.get("refutes"))
 
         if domain not in domain_scores:
             domain_scores[domain] = {
@@ -290,7 +375,7 @@ def decide_verdict(sources):
                 "refutes": 0.0
             }
 
-        # Keep the strongest score per domain.
+        # Multiple pages from one website count as one domain.
         domain_scores[domain]["supports"] = max(
             domain_scores[domain]["supports"],
             support
@@ -308,155 +393,160 @@ def decide_verdict(sources):
         support = scores["supports"]
         refute = scores["refutes"]
 
-        if support >= 0.70 and support > refute:
-            supporting.append(support)
+        if support >= SUPPORT_THRESHOLD and support > refute:
+            supporting.append((domain, support))
 
-        elif refute >= 0.70 and refute > support:
-            refuting.append(refute)
+        if refute >= REFUTE_THRESHOLD and refute > support:
+            refuting.append((domain, refute))
 
-    # Do not force a verdict when strong evidence conflicts.
+    # Both sides have strong evidence: do not force a verdict.
     if supporting and refuting:
         return (
             "UNVERIFIED",
             0,
-            "The retrieved sources contain conflicting evidence. "
-            "Review the source context before deciding."
+            "Strong evidence appears on both sides. The retrieved "
+            "passages may refer to different dates, definitions, "
+            "or contexts. Review the sources before deciding."
         )
 
     if len(supporting) >= 2:
-        score = round(
-            sum(supporting) / len(supporting) * 100,
+        confidence = round(
+            sum(score for _, score in supporting)
+            / len(supporting) * 100,
             2
         )
 
         return (
             "SUPPORTED",
-            score,
-            "At least two distinct domains contain evidence consistent "
-            "with the claim according to the NLI model. Check the "
-            "linked sources and their context."
+            confidence,
+            "At least two distinct external domains contain evidence "
+            "that the NLI model considers consistent with the claim. "
+            "This score is not a factual probability."
         )
 
     if len(refuting) >= 2:
-        score = round(
-            sum(refuting) / len(refuting) * 100,
+        confidence = round(
+            sum(score for _, score in refuting)
+            / len(refuting) * 100,
             2
         )
 
         return (
             "REFUTED",
-            score,
-            "At least two distinct domains contain evidence contradictory "
-            "to the claim according to the NLI model. Check the linked "
-            "sources and their context."
+            confidence,
+            "At least two distinct external domains contain evidence "
+            "that the NLI model considers contradictory to the claim. "
+            "This score is not a factual probability."
         )
 
     return (
         "UNVERIFIED",
         0,
-        "There is insufficient independent evidence for a reliable "
-        "verdict. Unverified does not mean false."
+        "There is not enough independent, consistent external evidence "
+        "to assign a reliable verdict. Unverified does not mean false."
     )
 
 
-# ==============================
-# MAIN FACT CHECK
-# ==============================
+# =========================================================
+# HISTORY
+# =========================================================
 
-def check_claim(claim: str):
-    claim = (claim or "").strip()
+def save_history(result):
+    """Save recent claim-check results."""
+    try:
+        if HISTORY_PATH.exists():
+            with open(HISTORY_PATH, "r", encoding="utf-8") as file:
+                history = json.load(file)
 
-    if not claim:
-        result = {
-            "claim": "",
+            if not isinstance(history, list):
+                history = []
+        else:
+            history = []
+
+        history.insert(0, result)
+        history = history[:50]
+
+        with open(HISTORY_PATH, "w", encoding="utf-8") as file:
+            json.dump(
+                history,
+                file,
+                ensure_ascii=False,
+                indent=2
+            )
+
+    except (OSError, json.JSONDecodeError) as error:
+        print(f"History save error: {error}")
+
+
+# =========================================================
+# MAIN FACT-CHECK FUNCTION
+# =========================================================
+
+def check_claim(claim):
+    """
+    Fact-check a claim using live web search, local retrieval,
+    and the BART MNLI model.
+    """
+    if not isinstance(claim, str) or not claim.strip():
+        return {
+            "claim": claim,
             "verdict": "UNVERIFIED",
             "confidence": 0,
-            "explanation": "No claim was provided.",
+            "explanation": "Please enter a non-empty claim.",
             "sources": [],
             "checked_by": "TruthLens"
         }
 
-        save_to_history(result)
-        return result
+    claim = claim.strip()
 
-    # ------------------------------
-    # LIVE WEB SEARCH FIRST
-    # ------------------------------
+    # 1. Retrieve external web evidence.
+    web_sources = retrieve_web_evidence(claim)
 
-    try:
-        search_results = search_web(claim) or []
+    # 2. Retrieve matching local database records.
+    local_sources = retrieve_database_evidence(claim)
 
-    except Exception as e:
-        print("WEB SEARCH ERROR:", e)
-        search_results = []
+    # 3. Combine results and analyze evidence.
+    combined_sources = web_sources + local_sources
+    analyzed_sources = analyze_sources(claim, combined_sources)
 
-    # ------------------------------
-    # ANALYZE SEARCH EVIDENCE
-    # ------------------------------
+    # 4. Decide the verdict using external domains only.
+    verdict, confidence, explanation = decide_verdict(
+        analyzed_sources
+    )
 
-    sources = analyze_sources(claim, search_results)
+    # 5. If there is no usable web evidence, be transparent.
+    web_domains = {
+        get_source_domain(source)
+        for source in analyzed_sources
+        if source.get("evidence_type") != "local_database"
+        and get_source_domain(source)
+    }
 
-    if sources:
-        verdict, confidence, explanation = decide_verdict(sources)
+    if not web_domains:
+        explanation = (
+            "Live external evidence could not be retrieved. "
+            "Local database matches are shown for reference only "
+            "and are not enough by themselves to verify this claim."
+        )
 
-        result = {
-            "claim": claim,
-            "verdict": verdict,
-            "confidence": confidence,
-            "explanation": explanation,
-            "sources": sources,
-            "database_match": False,
-            "checked_by": "TruthLens Live Search + NLI"
-        }
+    result = {
+        "claim": claim,
+        "verdict": verdict,
+        "confidence": confidence,
+        "explanation": explanation,
+        "sources": analyzed_sources,
+        "checked_by": "TruthLens Live Search + Local Database + BART NLI"
+    }
 
-    else:
-        # ------------------------------
-        # DATABASE FALLBACK
-        # ------------------------------
-
-        database_match = search_manual_database(claim)
-
-        if database_match:
-            result = {
-                "claim": claim,
-                "verdict": database_match.get(
-                    "verdict",
-                    "UNVERIFIED"
-                ),
-                "confidence": database_match.get(
-                    "match_score",
-                    0
-                ),
-                "explanation": database_match.get(
-                    "explanation",
-                    ""
-                ),
-                "topic": database_match.get("topic", ""),
-                "sources": database_match.get("sources", []),
-                "database_match": True,
-                "database_id": database_match.get("id", ""),
-                "checked_by": "TruthLens Manual Database Fallback"
-            }
-
-        else:
-            result = {
-                "claim": claim,
-                "verdict": "UNVERIFIED",
-                "confidence": 0,
-                "explanation": (
-                    "No usable live web evidence or sufficiently close "
-                    "database match was found. Try rephrasing the claim "
-                    "or checking reliable sources directly."
-                ),
-                "sources": [],
-                "database_match": False,
-                "checked_by": "TruthLens"
-            }
-
-    # ------------------------------
-    # SAVE HISTORY
-    # ------------------------------
-
-    save_to_history(result)
+    save_history(result)
 
     return result
+
+
+# =========================================================
+# COMPATIBILITY ALIAS
+# =========================================================
+
+def fact_check(claim):
+    """Alias for projects importing fact_check instead of check_claim."""
+    return check_claim(claim)

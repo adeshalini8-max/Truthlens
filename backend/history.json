@@ -1,1493 +1,1288 @@
-{
-  "checks": [
-    {
-      "claim": "India became independent in 1950",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "The retrieved sources contain conflicting evidence. Review the source context before deciding.",
-      "sources": [
-        {
-          "title": "History of India (1947–present) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
-          "snippet": "The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.001256421790458262,
-            "refutes": 0.9917324781417847,
-            "neutral": 0.007011084351688623
+[
+  {
+    "claim": "India became a republic in 1950",
+    "verdict": "UNVERIFIED",
+    "confidence": 0,
+    "explanation": "Live external evidence could not be retrieved. Local database matches are shown for reference only and are not enough by themselves to verify this claim.",
+    "sources": [
+      {
+        "id": "TL0037",
+        "title": "The Constitution of India came into force on 26 January 1950.",
+        "claim": "The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4635,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.866708517074585,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Dominion of India - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dominion_of_India",
-          "snippet": "The Dominion of India lasted until 1950, at which time India became a republic within the Commonwealth with a president as head of state. [11]",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.7908649444580078,
-            "refutes": 0.04792512580752373,
-            "neutral": 0.16120994091033936
+        "domain": ""
+      },
+      {
+        "id": "TL0195",
+        "title": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4485,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.7956370711326599,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "What happened between 1947 and 1950 in India? - themsteaparty.com",
-          "url": "https://themsteaparty.com/what-happened-between-1947-and-1950-in-india/",
-          "snippet": "Mar 15, 2026 · India officially became a republic on January 26, 1950, with the adoption and implementation of its constitution. This date signifies India’s transition from a dominion to a sovereign democratic republic.",
-          "source": "themsteaparty.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.14826729893684387,
-            "refutes": 0.18069882690906525,
-            "neutral": 0.6710338592529297
+        "domain": ""
+      },
+      {
+        "id": "TL0196",
+        "title": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4473,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.7954573035240173,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Today in History: When India Became a Republic — 26 January 1950",
-          "url": "https://unite4india.com/governance/when-india-became-republic-26-january-1950/",
-          "snippet": "Apr 30, 2026 · On the morning of 26 January 1950, India ceased to be a dominion under the British Crown and became a sovereign democratic republic. The transition took effect at 10:18 AM, when Dr. Rajendra Prasad was sworn in as the first President of India in a ceremony held at the Durbar Hall of Government House in New Delhi.",
-          "source": "unite4india.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.7719969749450684,
-            "refutes": 0.03289039060473442,
-            "neutral": 0.19511264562606812
+        "domain": ""
+      },
+      {
+        "id": "TL0194",
+        "title": "Is it true that the Constitution of India came into force on 26 January 1950.",
+        "claim": "Is it true that the Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4428,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.801703929901123,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "From colonial rule to a Republic: Why India became a republic ...",
-          "url": "https://timesofindia.indiatimes.com/education/news/from-colonial-rule-to-a-republic-why-india-became-a-republic-three-years-after-independence/articleshow/133212368.cms",
-          "snippet": "Aug 13, 2026 · India became independent from British rule on 15 August 1947, but it did not become a republic on that day. For nearly two and a half years, the newly independent country continued with a transitional constitutional arrangement.",
-          "source": "timesofindia.indiatimes.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.02940135821700096,
-            "refutes": 0.8135498762130737,
-            "neutral": 0.15704870223999023
+        "domain": ""
+      },
+      {
+        "id": "TL0051",
+        "title": "India Code is an official Indian public institution or government platform.",
+        "claim": "India Code is an official Indian public institution or government platform.",
+        "verdict": "SUPPORTED",
+        "explanation": "India Code maintains an official public website or portal for its stated institutional functions.",
+        "topic": "Government & Public Institutions",
+        "keywords": [],
+        "sources": [
+          {
+            "name": "India Code",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Official"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. India Code maintains an official public website or portal for its stated institutional functions.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.3025,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.9713354110717773,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Indian independence movement - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Indian_independence_movement",
-          "snippet": "The Indian independence movement was a series of political efforts from the mid-1880s to 1947 that took place in the Indian subcontinent with the aim of ending British colonial rule. The first nationalistic movement took root when the Indian National Congress (INC) was formed in 1885. Prominent moderate leaders of the INC worked on demands such as greater economic rights for Indians and the ...",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.0075102089904248714,
-            "refutes": 0.8014163970947266,
-            "neutral": 0.1910734325647354
+        "domain": ""
+      }
+    ],
+    "checked_by": "TruthLens Live Search + Local Database + BART NLI"
+  },
+  {
+    "claim": "India became independent in 1947",
+    "verdict": "SUPPORTED",
+    "confidence": 93.3,
+    "explanation": "At least two distinct external domains contain evidence that the NLI model considers consistent with the claim. This score is not a factual probability.",
+    "sources": [
+      {
+        "title": "History of India (1947-present) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
+        "snippet": "The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947. Direct administration by the British, which began in 1858, affected a political and economic unification of the subcontinent.",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.981063187122345,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Indian Independence Act 1947 - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indian_Independence_Act_1947",
+        "snippet": "On 25 July 1947, Lord Mountbatten addressed a special full meeting of the Chamber of Princes concerning the future of the princely states, which he described as numbering something as \"565\". [11] Under the Indian Independence Act 1947, India and Pakistan became independent Dominions on 15 August 1947. [12] From that date, the Crown's suzerainty over the Indian states lapsed, together with its ...",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.745871901512146,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Indian Independence Act 1947, Background, Features, Significance, Impacts",
+        "url": "https://vajiramandravi.com/upsc-exam/indian-independence-act-1947/",
+        "snippet": "The Indian Independence Act 1947 ended the British authority in India and granted freedom to India on august 15, 1947. It partitioned India into two sovereigns, India and Pakistan.",
+        "source": "vajiramandravi.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.9237143993377686,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "vajiramandravi.com"
+      },
+      {
+        "title": "Indian Independence Movement | History, Summary, Timeline, Causes ...",
+        "url": "https://www.britannica.com/topic/Indian-Independence-Movement",
+        "snippet": "The Indian Independence Movement was an anti-colonial struggle spanning approximately a century, aimed at ending British rule over the Indian subcontinent. The movement ended in a bittersweet victory, as the people of the subcontinent won freedom and independence, yet were painfully divided into two nations: India and Pakistan.",
+        "source": "www.britannica.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.990642249584198,
+          "label": "NEUTRAL"
+        },
+        "domain": "britannica.com"
+      },
+      {
+        "title": "India, Pakistan win independence | August 15, 1947 | HISTORY",
+        "url": "https://www.history.com/this-day-in-history/August-15/india-and-pakistan-win-independence",
+        "snippet": "The Indian Independence Bill, which carves the two independent nations of India and Pakistan out of the former Mogul Empire, comes into force at the stroke of midnight on August 15, 1947. In the ...",
+        "source": "www.history.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.8943474292755127,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "history.com"
+      },
+      {
+        "id": "TL0037",
+        "title": "The Constitution of India came into force on 26 January 1950.",
+        "claim": "The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.3071,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.8970147371292114,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Republic of India born | January 26, 1950 | HISTORY",
-          "url": "https://www.history.com/this-day-in-history/January-26/republic-of-india-born",
-          "snippet": "On January 26, 1950, the Indian constitution takes effect, making the Republic of India the most populous democracy in the world.",
-          "source": "www.history.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.03696552664041519,
-            "refutes": 0.07468292862176895,
-            "neutral": 0.888351559638977
+        "domain": ""
+      },
+      {
+        "id": "TL0074",
+        "title": "The Reserve Bank of India is India's central bank.",
+        "claim": "The Reserve Bank of India is India's central bank.",
+        "verdict": "SUPPORTED",
+        "explanation": "RBI describes itself as India's central bank and carries out functions assigned to it by law.",
+        "topic": "Economy",
+        "keywords": [
+          "economy",
+          "gdp",
+          "rbi"
+        ],
+        "sources": [
+          {
+            "name": "RBI",
+            "url": "https://www.rbi.org.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. RBI describes itself as India's central bank and carries out functions assigned to it by law.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.2921,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.9816840291023254,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "1950 in India - grokipedia.com",
-          "url": "https://grokipedia.com/page/1950_in_India",
-          "snippet": "1950 marked the establishment of India as a sovereign democratic republic, with the Constitution—adopted by the Constituent Assembly on 26 November 1949—coming into force on 26 January, thereby replacing the colonial Government of India Act 1935 and formalizing the nation's institutional framework including a parliamentary system, fundamental rights, directive principles, and an ...",
-          "source": "grokipedia.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.802934467792511,
-            "refutes": 0.021270491182804108,
-            "neutral": 0.1757950484752655
+        "domain": ""
+      },
+      {
+        "id": "TL0195",
+        "title": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.2916,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.620780348777771,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Independent India - MANAS",
-          "url": "https://southasia.ucla.edu/history-politics/independent-india/",
-          "snippet": "Following India's independence in 1947, the Constituent Assembly deliberated over the precise constitutional future of India. On 26 January 1950, India became a Republic, and the Constitution of India was promulgated.",
-          "source": "southasia.ucla.edu",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.539077639579773,
-            "refutes": 0.20950083434581757,
-            "neutral": 0.2514214813709259
+        "domain": ""
+      },
+      {
+        "id": "TL0196",
+        "title": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.2904,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.6906223297119141,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "THE MAKING OF MODERN INDIA — The Indian Panorama",
-          "url": "https://www.theindianpanorama.news/the-making-of-modern-india/",
-          "snippet": "Aug 15, 2026 · Would these states join India, join Pakistan or attempt to remain independent? The answer would determine whether the new country emerged as a united political entity or as a fragmented collection of territories.",
-          "source": "www.theindianpanorama.news",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.005078522488474846,
-            "refutes": 0.6913268566131592,
-            "neutral": 0.3035946190357208
+        "domain": ""
+      },
+      {
+        "id": "TL0051",
+        "title": "India Code is an official Indian public institution or government platform.",
+        "claim": "India Code is an official Indian public institution or government platform.",
+        "verdict": "SUPPORTED",
+        "explanation": "India Code maintains an official public website or portal for its stated institutional functions.",
+        "topic": "Government & Public Institutions",
+        "keywords": [],
+        "sources": [
+          {
+            "name": "India Code",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Official"
           }
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search + NLI"
-    },
-    {
-      "claim": "India became a republic in 1950",
-      "verdict": "SUPPORTED",
-      "confidence": 96.66,
-      "explanation": "At least two distinct domains contain evidence consistent with the claim according to the NLI model. Check the linked sources and their context.",
-      "sources": [
-        {
-          "title": "Republic Day (India) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Republic_Day_(India)",
-          "snippet": "Republic Day is a national holiday in India commemorating the adoption of the Constitution of the Republic of India and the country's transition to a republic which came into effect on 26 January 1950.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9679768085479736,
-            "refutes": 0.0018210419220849872,
-            "neutral": 0.030202167108654976
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. India Code maintains an official public website or portal for its stated institutional functions.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.288,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.9619916081428528,
+          "label": "NEUTRAL"
+        },
+        "domain": ""
+      }
+    ],
+    "checked_by": "TruthLens Live Search + Local Database + BART NLI"
+  },
+  {
+    "claim": "India became independent in 1950",
+    "verdict": "UNVERIFIED",
+    "confidence": 0,
+    "explanation": "Strong evidence appears on both sides. The retrieved passages may refer to different dates, definitions, or contexts. Review the sources before deciding.",
+    "sources": [
+      {
+        "title": "History of India (1947-present) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
+        "snippet": "The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947.",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.9906743168830872,
+          "neutral": 0.0,
+          "label": "REFUTES"
+        },
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Dominion of India - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dominion_of_India",
+        "snippet": "British dominion in South Asia from 1947 to 1950 The Dominion of India, officially the Union of India, [7] was an independent dominion in the British Commonwealth of Nations existing between 15 August 1947 and 26 January 1950. [8] Until its independence, India had been ruled as an informal empire by the United Kingdom. The empire, also called the British Raj and sometimes the British Indian ...",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.8323740363121033,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Independent India - MANAS",
+        "url": "https://southasia.ucla.edu/history-politics/independent-india/",
+        "snippet": "On 26 January 1950, India became a Republic, and the Constitution of India was promulgated. Jawaharlal Nehru had become the country's first Prime Minister in 1947, and in 1952, in the country's first general election with a universal franchise, Nehru led the Indian National Congress to a clear victory.",
+        "source": "southasia.ucla.edu",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.9668368101119995,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "southasia.ucla.edu"
+      },
+      {
+        "title": "From colonial rule to a Republic: Why India became a republic three ...",
+        "url": "https://timesofindia.indiatimes.com/education/news/from-colonial-rule-to-a-republic-why-india-became-a-republic-three-years-after-independence/articleshow/133212368.cms",
+        "snippet": "India became independent from British rule on 15 August 1947, but it did not become a republic on that day. For nearly two and a half years, the newly independent country continued with a ...",
+        "source": "timesofindia.indiatimes.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.7044708728790283,
+          "neutral": 0.0,
+          "label": "REFUTES"
+        },
+        "domain": "timesofindia.indiatimes.com"
+      },
+      {
+        "title": "What happened between 1947 and 1950 in India? - themsteaparty.com",
+        "url": "https://themsteaparty.com/what-happened-between-1947-and-1950-in-india/",
+        "snippet": "The period between 1947 and 1950 in India was a transformative era marked by the partition of British India, the establishment of the Republic of India, and the initial challenges of nation-building. This time saw the birth of two nations, India and Pakistan, alongside immense social upheaval and the drafting of its foundational constitution.",
+        "source": "themsteaparty.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.7158798575401306,
+          "label": "NEUTRAL"
+        },
+        "domain": "themsteaparty.com"
+      },
+      {
+        "title": "Indian independence movement - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indian_independence_movement",
+        "snippet": "On 26 January 1950, the Constitution of India came into effect, establishing the Republic of India, while the partitioned territories evolved into the independent nations of Pakistan [2] and, later, Bangladesh.",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.9756357669830322,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Republic of India born | January 26, 1950 | HISTORY",
+        "url": "https://www.history.com/this-day-in-history/January-26/republic-of-india-born",
+        "snippet": "Jul 21, 2010 · On January 26, 1950, the Indian constitution takes effect, making the Republic of India the most populous democracy in the world. Mohandas Gandhi struggled through decades of passive...",
+        "source": "www.history.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.7216089963912964,
+          "label": "NEUTRAL"
+        },
+        "domain": "history.com"
+      },
+      {
+        "title": "1950 in India - grokipedia.com",
+        "url": "https://grokipedia.com/page/1950_in_India",
+        "snippet": "1950 marked the establishment of India as a sovereign democratic republic, with the Constitution —adopted by the Constituent Assembly on 26 November 1949—coming into force on 26 January, thereby replacing the colonial Government of India Act 1935 and formalizing the nation's institutional framework including a parliamentary system ...",
+        "source": "grokipedia.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.7996518611907959,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "grokipedia.com"
+      },
+      {
+        "title": "THE MAKING OF MODERN INDIA — The Indian Panorama",
+        "url": "https://www.theindianpanorama.news/the-making-of-modern-india/",
+        "snippet": "Aug 15, 2026 · Would these states join India, join Pakistan or attempt to remain independent? The answer would determine whether the new country emerged as a united political entity or as a fragmented collection of territories.",
+        "source": "www.theindianpanorama.news",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.9187679886817932,
+          "neutral": 0.0,
+          "label": "REFUTES"
+        },
+        "domain": "theindianpanorama.news"
+      },
+      {
+        "title": "January 26 Explained: Why India Became a Republic - Not Just ...",
+        "url": "https://www.timesnownews.com/india/republic-day-january-26-explained-why-india-became-a-republic-not-just-independent-nation-in-1950-article-153505561",
+        "snippet": "Jan 25, 2026 · New Delhi: India’s Republic Day on January 26 marks the date in history when its own constitution came into force in 1950. The development marked the complete transition of power from British colonial rule to the Indian leadership.",
+        "source": "www.timesnownews.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.5919170379638672,
+          "label": "NEUTRAL"
+        },
+        "domain": "timesnownews.com"
+      },
+      {
+        "id": "TL0037",
+        "title": "The Constitution of India came into force on 26 January 1950.",
+        "claim": "The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4848,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.9180472493171692,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "History of India (1947–present) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
-          "snippet": "The constitution adopted in 1950 made India a democratic republic with Westminster style parliamentary system of government, both at federal and state level respectively. The democracy has been sustained since then.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9068760275840759,
-            "refutes": 0.004778686445206404,
-            "neutral": 0.08834528177976608
+        "domain": ""
+      },
+      {
+        "id": "TL0195",
+        "title": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4677,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.8534650206565857,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Explained: How India Became A Republic In 1950 - NDTV.com",
-          "url": "https://www.ndtv.com/india-news/republic-day-2024-explained-how-india-became-a-republic-in-1950-4933815",
-          "snippet": "Jan 26, 2024 · On January 26, 1950, the Constitution of India came into effect, replacing the colonial-era Government of India Act of 1935. This marked the birth of the Indian Republic, and Dr Rajendra Prasad...",
-          "source": "www.ndtv.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9893765449523926,
-            "refutes": 0.0010074070887640119,
-            "neutral": 0.00961608812212944
+        "domain": ""
+      },
+      {
+        "id": "TL0196",
+        "title": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4663,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.8615707755088806,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Explained: How India Became A Republic On January 26, 1950",
-          "url": "https://www.ndtv.com/india-news/how-india-emerged-as-a-republic-on-january-26-1950-7554586",
-          "snippet": "Jan 25, 2025 · While India became an independent nation on August 15, 1947, it got its Constitution on January 26, 1950. India is gearing up to celebrate its 76th Republic Day on Sunday.",
-          "source": "www.ndtv.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.966635525226593,
-            "refutes": 0.004682664759457111,
-            "neutral": 0.028681859374046326
+        "domain": ""
+      },
+      {
+        "id": "TL0194",
+        "title": "Is it true that the Constitution of India came into force on 26 January 1950.",
+        "claim": "Is it true that the Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4611,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.8755224347114563,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "History Today: How India became a Republic on January 26, 1950",
-          "url": "https://www.firstpost.com/explainers/history-today-india-became-a-republic-on-january-26-1950-13855942.html",
-          "snippet": "Jan 26, 2025 · Though India became a free nation on August 15, 1947, it declared itself a sovereign, democratic and republic state with the adoption of the Constitution on January 26, 1950.",
-          "source": "www.firstpost.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.98919278383255,
-            "refutes": 0.0012686110567301512,
-            "neutral": 0.009538628160953522
+        "domain": ""
+      },
+      {
+        "id": "TL0074",
+        "title": "The Reserve Bank of India is India's central bank.",
+        "claim": "The Reserve Bank of India is India's central bank.",
+        "verdict": "SUPPORTED",
+        "explanation": "RBI describes itself as India's central bank and carries out functions assigned to it by law.",
+        "topic": "Economy",
+        "keywords": [
+          "economy",
+          "gdp",
+          "rbi"
+        ],
+        "sources": [
+          {
+            "name": "RBI",
+            "url": "https://www.rbi.org.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. RBI describes itself as India's central bank and carries out functions assigned to it by law.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.2921,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.9732112288475037,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Republic of India born | January 26, 1950 | HISTORY",
-          "url": "https://www.history.com/this-day-in-history/January-26/republic-of-india-born",
-          "snippet": "Jul 21, 2010 · In late 1949, an Indian constitution was adopted, and on January 26, 1950, the Republic of India was born. With universal adult franchise, Nehru hoped to overcome India’s “caste-ridden”...",
-          "source": "www.history.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9746471643447876,
-            "refutes": 0.0014949776232242584,
-            "neutral": 0.02385779097676277
+        "domain": ""
+      }
+    ],
+    "checked_by": "TruthLens Live Search + Local Database + BART NLI"
+  },
+  {
+    "claim": "India became a republic in 1950",
+    "verdict": "SUPPORTED",
+    "confidence": 98.58,
+    "explanation": "At least two distinct external domains contain evidence that the NLI model considers consistent with the claim. This score is not a factual probability.",
+    "sources": [
+      {
+        "title": "Republic Day (India) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Republic_Day_(India)",
+        "snippet": "Republic Day is a national holiday in India commemorating the adoption of the Constitution of the Republic of India and the country's transition to a republic which came into effect on 26 January 1950.",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.9709511399269104,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "History of India (1947-present) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
+        "snippet": "Jawaharlal Nehru, the first prime minister of India, often regarded as the architect of modern India, addressing a newly independent India on 15 August 1947 The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947.",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.6915358901023865,
+          "neutral": 0.0,
+          "label": "REFUTES"
+        },
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Explained: How India Became A Republic In 1950 - NDTV.com",
+        "url": "https://www.ndtv.com/india-news/republic-day-2024-explained-how-india-became-a-republic-in-1950-4933815",
+        "snippet": "Republic Day 2024: The transition from a dominion under British rule to a sovereign, democratic republic on January 26, 1950, stands as a defining moment in India's history.",
+        "source": "www.ndtv.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.9935728311538696,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "ndtv.com"
+      },
+      {
+        "title": "Explained: How India Became A Republic On January 26, 1950",
+        "url": "https://www.ndtv.com/india-news/how-india-emerged-as-a-republic-on-january-26-1950-7554586",
+        "snippet": "India became an independent nation on August 15, 1947, ending nearly 200 years of British rule. But it got its Constitution on January 26, 1950. How India Became A Republic In 1950?",
+        "source": "www.ndtv.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.9584073424339294,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "ndtv.com"
+      },
+      {
+        "title": "History Today: How India became a Republic on January 26, 1950 - Firstpost",
+        "url": "https://www.firstpost.com/explainers/history-today-india-became-a-republic-on-january-26-1950-13855942.html",
+        "snippet": "India becomes a republic in 1950 Though India became a free nation on August 15, 1947, it declared itself a sovereign, democratic and republic state with the adoption of the Constitution on January 26, 1950.",
+        "source": "www.firstpost.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.9928224682807922,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
+        },
+        "domain": "firstpost.com"
+      },
+      {
+        "id": "TL0037",
+        "title": "The Constitution of India came into force on 26 January 1950.",
+        "claim": "The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4635,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.866708517074585,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "From colonial rule to a Republic: Why India became a republic three ...",
-          "url": "https://timesofindia.indiatimes.com/education/news/from-colonial-rule-to-a-republic-why-india-became-a-republic-three-years-after-independence/articleshow/133212368.cms",
-          "snippet": "India became a Republic on 26 January 1950, when the Constitution came into force and replaced the colonial-era constitutional framework. The distinction is important.",
-          "source": "timesofindia.indiatimes.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9113410115242004,
-            "refutes": 0.001183929038234055,
-            "neutral": 0.0874750092625618
+        "domain": ""
+      },
+      {
+        "id": "TL0195",
+        "title": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4485,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.7956370711326599,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "What does Republic mean? Why January 26, 1950 changed India forever",
-          "url": "https://www.news9live.com/opinion-analysis/what-does-the-republic-actually-mean-3009432",
-          "snippet": "India gained independence in 1947, but why did it take another two and a half years to become a republic? In today's 'YOUR INDIA' column, Santosh Nair writes about what changed on January 26, 1950, why the date was chosen and what becoming a republic actually meant for India.",
-          "source": "www.news9live.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9760990738868713,
-            "refutes": 0.0037553778383880854,
-            "neutral": 0.020145507529377937
+        "domain": ""
+      },
+      {
+        "id": "TL0196",
+        "title": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4473,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.7954573035240173,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "The Republic that bent but never broke: India's ... - Zee News",
-          "url": "https://zeenews.india.com/india/the-republic-that-bent-but-never-broke-india-s-constitution-tested-like-never-before-3010341.html",
-          "snippet": "Republic Day 2026: When India became a republic on January 26, 1950, it ended colonial rule and placed its trust in a written Constitution to unite a vast, diverse and unequal nation, and to guide it through political, social and economic challenges.",
-          "source": "zeenews.india.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9572635889053345,
-            "refutes": 0.010111422277987003,
-            "neutral": 0.0326249822974205
+        "domain": ""
+      },
+      {
+        "id": "TL0194",
+        "title": "Is it true that the Constitution of India came into force on 26 January 1950.",
+        "claim": "Is it true that the Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4428,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.801703929901123,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "January 26, 1950: Revisiting India's first Republic Day — the parade ...",
-          "url": "https://m.timesofindia.com/india/january-26-1950-revisiting-indias-first-republic-day-the-parade-and-those-who-watched-history-unfold/articleshow/127546174.cms",
-          "snippet": "India News: NEW DELHI: As India celebrated its 77th Republic Day, Kartavya Path once again became the setting for the country's most enduring national ritual. Pre.",
-          "source": "m.timesofindia.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.5185028910636902,
-            "refutes": 0.15425674617290497,
-            "neutral": 0.3272404074668884
+        "domain": ""
+      },
+      {
+        "id": "TL0051",
+        "title": "India Code is an official Indian public institution or government platform.",
+        "claim": "India Code is an official Indian public institution or government platform.",
+        "verdict": "SUPPORTED",
+        "explanation": "India Code maintains an official public website or portal for its stated institutional functions.",
+        "topic": "Government & Public Institutions",
+        "keywords": [],
+        "sources": [
+          {
+            "name": "India Code",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Official"
           }
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search + NLI"
-    },
-    {
-      "claim": "India became a republic in 1950",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database. Relevant web evidence was retrieved, but it requires further comparison before assigning a final verdict.",
-      "sources": [
-        {
-          "title": "Indian Air Force Day: Four Wapitis and the Birth of the IAF in 1932 - MiGFlug",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYURKSTB3a2VmR3NncHFrd1FYclJ3ZjZVQ3l2ZThGNkxGVDBoRVI0ZjVVLThRVjlIb3dXU2luQ0RzM0NEdTdyWGg4UXIwU19CY3VjOGVrSTFiNVlSQWpaTUo5cjNramhiVU9mVDhoMHczSUxpMFo1djNoRHA4VDk1WXREamZNOEtMOGF3al9Yalk3SUQzMWlCdEEtVVZMZw?oc=5",
-          "snippet": "Indian Air Force Day: Four Wapitis and the Birth of the IAF in 1932 MiGFlug",
-          "source": "MiGFlug",
-          "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-          "relevance": 0
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. India Code maintains an official public website or portal for its stated institutional functions.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.3025,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.9713354110717773,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Skies of courage: India's air warriors turn ninety-four - WION",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkplU3daOXdlVWZMRDFRTUhHSW9mX3Z3QzRES1hLVTFlNzJzUG1ta0o1MUdDOWJmVFBra2RmakJSdG5wUmNSWDRRajZtTW4zTUdGNGlFbGlGeHVsOG1TX0xEVWJpbGE4WFBOYW5iTWx3Si1lNnJoeE1oVDd4a0RqbHkwTHBvVktGU28ybDdhbVNMSGhEMHVDd0xWZWIzeUtJSW5aMHo2R1BoSHhC0gGyAUFVX3lxTE05UmhkUmd5a3VkOWIybVFDOW5kQWJMam81WHdLaWNMcU1JRWVZY2pOblJhVXNkM29ucmtWendfLXhVT0IwNGV4eGtIOVFubGRKdDhWb2ljZERsdHRSWS1DYWp1RFluZVdBZXdvaFIxekRPQ2NyNjRSY3dkNndGNUcyVU5CYWx5c0xqSnQ5LXliNVNWS1hxaWxqd2t5dVJZM19fbW5mWHhrbmM0M042YjRtUmc?oc=5",
-          "snippet": "Skies of courage: India's air warriors turn ninety-four WION",
-          "source": "WION",
-          "published": "Wed, 07 Oct 2026 15:56:00 GMT",
-          "relevance": 0
+        "domain": ""
+      }
+    ],
+    "checked_by": "TruthLens Live Search + Local Database + BART NLI"
+  },
+  {
+    "claim": "India became independent in 1950",
+    "verdict": "UNVERIFIED",
+    "confidence": 0,
+    "explanation": "Strong evidence appears on both sides. The retrieved passages may refer to different dates, definitions, or contexts. Review the sources before deciding.",
+    "sources": [
+      {
+        "title": "History of India (1947-present) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
+        "snippet": "The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947.",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.9906743168830872,
+          "neutral": 0.0,
+          "label": "REFUTES"
         },
-        {
-          "title": "Vande Mataram - Britannica",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BUzlpOTVjMmVuUDVTTXFJb29vcXlxUUVBZENnckcxLVQxVzV6RlZ6dElMMEw4bWFEakhLdkNMLURHb1ktX1JvcWZ0NE84MWVDZzlTRmlTcENjQQ?oc=5",
-          "snippet": "Vande Mataram Britannica",
-          "source": "Britannica",
-          "published": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "relevance": 0
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Dominion of India - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dominion_of_India",
+        "snippet": "British dominion in South Asia from 1947 to 1950 The Dominion of India, officially the Union of India, [7] was an independent dominion in the British Commonwealth of Nations existing between 15 August 1947 and 26 January 1950. [8] Until its independence, India had been ruled as an informal empire by the United Kingdom. The empire, also called the British Raj and sometimes the British Indian ...",
+        "source": "en.wikipedia.org",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.8323740363121033,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
         },
-        {
-          "title": "Republic Day Tableau 2026, Meaning, List, Theme, Winners - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YeDF4ck1DdEJtSGx0RFBoSFBNWlF1QlpMS0JYb1ZhcTNnT2NIUjhjd2dSQ0I5cnZnY3BnSTR0ZVVlMmJjTkZvNHNBSW45c3JkVUo2ZHYzUmI2Rms0eTNWa2hOdURqVC11RHY0UjJPZVBadw?oc=5",
-          "snippet": "Republic Day Tableau 2026, Meaning, List, Theme, Winners Vajiram & Ravi",
-          "source": "Vajiram & Ravi",
-          "published": "Sat, 04 Jul 2026 07:00:00 GMT",
-          "relevance": 0
+        "domain": "en.wikipedia.org"
+      },
+      {
+        "title": "Independent India - MANAS",
+        "url": "https://southasia.ucla.edu/history-politics/independent-india/",
+        "snippet": "On 26 January 1950, India became a Republic, and the Constitution of India was promulgated. Jawaharlal Nehru had become the country's first Prime Minister in 1947, and in 1952, in the country's first general election with a universal franchise, Nehru led the Indian National Congress to a clear victory.",
+        "source": "southasia.ucla.edu",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.9668368101119995,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
         },
-        {
-          "title": "Beyond the Passport: The Legal Ambiguity of Indian Citizenship - NewsGram",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc2U0dWFWQ3N0Z3B0RkVwZTEzT1ZjSDVXYzFtT2dMc3NzMU1tWno2dEFQSHRIWmh6Nm9rLXRsQ1FHMmVZN0RybmxGbzZaM2JtTkNaSm5nbm9Pd2RubEZ4OWRBQTZ2TFl4aUpFbm5IVTJnb0t0SS1CT1RhOHB0S1FmZHR0OC1ld9IBkwFBVV95cUxNSWY1Q0ZJYjEycFhENEttTDY5Yy1IZkN1eWJLX3N2SWdCUTVrQjg3N25iUEJLTHBENEczWlQ0VUp6Um93WUJmZUNiaXhza1Q2RjFUbEdlTUtOWnRzeDg3Z2wzb1FYMTdoN2lReTR2WW9ZemtIVnhLYXJXcEw5dVVHblB0R3FxRXNxVzFaX21tN0J0a2M?oc=5",
-          "snippet": "Beyond the Passport: The Legal Ambiguity of Indian Citizenship NewsGram",
-          "source": "NewsGram",
-          "published": "Tue, 14 Jul 2026 07:00:00 GMT",
-          "relevance": 0
+        "domain": "southasia.ucla.edu"
+      },
+      {
+        "title": "From colonial rule to a Republic: Why India became a republic three ...",
+        "url": "https://timesofindia.indiatimes.com/education/news/from-colonial-rule-to-a-republic-why-india-became-a-republic-three-years-after-independence/articleshow/133212368.cms",
+        "snippet": "India became independent from British rule on 15 August 1947, but it did not become a republic on that day. For nearly two and a half years, the newly independent country continued with a ...",
+        "source": "timesofindia.indiatimes.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.7044708728790283,
+          "neutral": 0.0,
+          "label": "REFUTES"
         },
-        {
-          "title": "India's first Republic Day parade - Brut",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZF9leEZPRnRrTkt2d0lhYUJPSFdyME1iaFdWc3ZyMHdnRmRlZl8xOGNFRkZIYkpWX0pTOHBkX3RNOVBnbU9jaVBCbl9hQ3NBTlh3dUI5Nmt5ZzRmTlg3LTVaNzJBUzl6SmpsbzNhMlMxS2xFUHlieHBMd1l2ZG42bjRlV2dZeE5R?oc=5",
-          "snippet": "India's first Republic Day parade Brut",
-          "source": "Brut",
-          "published": "Sun, 25 Jan 2026 08:00:00 GMT",
-          "relevance": 0
+        "domain": "timesofindia.indiatimes.com"
+      },
+      {
+        "title": "Explained: How India Became A Republic On January 26, 1950",
+        "url": "https://www.ndtv.com/india-news/how-india-emerged-as-a-republic-on-january-26-1950-7554586",
+        "snippet": "India became an independent nation on August 15, 1947, ending nearly 200 years of British rule. But it got its Constitution on January 26, 1950. How India Became A Republic In 1950?",
+        "source": "www.ndtv.com",
+        "published": "",
+        "relevance": 0.0,
+        "evidence_type": "web",
+        "evidence_analysis": {
+          "supports": 0.8794688582420349,
+          "refutes": 0.0,
+          "neutral": 0.0,
+          "label": "SUPPORTS"
         },
-        {
-          "title": "Explained: How India Became A Republic On January 26, 1950 - NDTV",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdTlLX0FUZklLYmotY3NxaVBTTnFpMV93YjRlQXE5anVleHhsb1ZYMUVqY2YtTVlCcFBZNVJvMnVfQlQyeFdRTzVkbzF5X2RDb0hLVV9GR01ZbTRlbU95cHRUaUhYWFlubGVaR183RGo5amJrU0l2bUtmMmwxaWt4a3BmVVhDbmsxN2RvSVhLWFdGc0J40gGcAUFVX3lxTE5ZWDhMNUJHUUoyR1RQZ0dPdlFoMWdMRmoxNjRjOWF4SjhPVVNFdUowdTZITUpEb0NSVUNrRmZSQlpkOUN1czkxaFhOUFlBVGMyNF85RTcxLVFRcmstTVVBNjMwM21oNzk5ejFkR25aM1NuV0ZIMmhVMUtDbkJfTV9MdW4zeUhfTTM4cExoYktvcmxCMWxua0tQUktReg?oc=5",
-          "snippet": "Explained: How India Became A Republic On January 26, 1950 NDTV",
-          "source": "NDTV",
-          "published": "Sat, 25 Jan 2025 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "From The Constitution To The Flag, 10 Lesser-Known Facts About Republic Day - Curly Tales",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcUJKSWN0TGdiNWxQRzFJc3BnRmFkLXBMemprMjh5Vk1hUUYyNlJCcWlkMVJEMUJ4VGFDUmpialMzQkxudXllUVNldjJmbGllbGVMdFZBQS1qaHBWb2RBSUdRSmZxbFdfNkJ6WW1JZXMwRjhUc29rdzlsbEM5V2lmV1JJemNwS2pPSXd1OVZWeUxxVGFVaE9uOURvdEFIT2dhZ0pDaldONmw0akpMRmF0YW1jUdIBuAFBVV95cUxNczBKNXQtRnZOLU0wbHh4dUJmejRtaTdfckh3T0x5dW43bDdQbkVWN2pCNHJBT293MVRMZjgyYktmVnVCSG4xUmtLSjZibjNqVnJPQkZXUEU5T0R6cUxXNl8ySlAyemxFLUpxdlI5MG4xTHpCODFzN0VZbDJ2d1pEMzA0RktuMnFXcVgwTlVSbWg3LTlLTU40OHRLcWstdVlyY25GTmZZNW8zVkN0aHBhMVlMaXU4bHJW?oc=5",
-          "snippet": "From The Constitution To The Flag, 10 Lesser-Known Facts About Republic Day Curly Tales",
-          "source": "Curly Tales",
-          "published": "Thu, 22 Jan 2026 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Republic Day 2026 Best Speech & Essay Ideas: Republic Day Speech in English, Long and Short Speeches for - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNeWc1aERvS1E1ay1aZU4tZ29ERkd3dkdhZEVvMTVBXy1XaDNDREJNVlpwZTJORTRDekJpVk5vVTZzaFc1SkVVeWlKZThtYU1zVlduRFprZXUtNHJxN1lkR2ZrZE81Wlg3cjQ2aTZqUElpX1hqbnY4dEJONWstSVVVeVhsSVg1NWdSYlBFUGhKWGdqR3lqOWhhLTJaTWFseTRpdXZXX2RFRGlmOWI3dTFweC11SWVuU1EzT1dkaGg3enpUZlhMbTBpdzFlS3p3MWtIcjlCSHhzaERUZjBTRUJrMkJUbjUtSWh4b1ZMa0NUSXBxcktCVzBrdVJvUmF5dHR2MkpnQzZoSTFXSDBLWHpMaDMzeTNoSUw0MEE4aGFuS2RLZ0o0dWc5VC1Mc1nSAbICQVVfeXFMT2t3VjFvTGNZdVhrNGxEUUJ2MEdtemN1NDhGemwzeFFKcGZaWDY2czZvRkpOT0o0VUlUdEl3QUZmdXZFNFIyN3MwbmZ1bjB3U1BBUnFidnRJVjZCWlQtdXJIMk9razYzU19aSlY0aXN3NHlRVkZGWk9SS2syVm1GZHpsT1lxdUxlUFpxYVJHbmtTSnIxSVVHRUx4VEpYaTFrSEQxV0l2TU9rMUpsek9temNsZUwwSHVBTW03MTBOMVJ1RjBKNjZqWXBJY09HRGt5ODRrNVBHY0NaMlJfWmVzYUo5S2QyOVYtMnRTT0sxWkJERmlST2VjdlpzamZTaGR2anJFV1prWHFNZWRsSzEtQUI5VW9FU0VqNENaVGtSN0hiRnNtei1fNUpkRllLUkQwNTZ3?oc=5",
-          "snippet": "Republic Day 2026 Best Speech & Essay Ideas: Republic Day Speech in English, Long and Short Speeches for The Times of India",
-          "source": "The Times of India",
-          "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Rajagopalachari statue to replace Edward Lutyens' at Rashtrapati Bhavan - The Federal",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX2p6N0YzdzNKOEotVVgzRDRKZ2hON1hvcVpub1hINEpaRlJaN3Ezb2VfZWY2M25CUURaY254dm51YXBtOW4zSjJVZHZvdzBrM3Z4ZmtWMlNjQXRGWDF4Z0NwNTJRVG9fRFBTUW1UUlhxeWtQU3NzR0ZCcEcycWo0R0xVMTZSU2k2MTBMeTBEdkp2X2xlVDZyTjdOSHJoVFQ4OFNYeWptR1Z2RURlS2JZRlVHWmU5WDU0TlRaZmVIS3J3dk1YUUxvMHhaMjVYdw?oc=5",
-          "snippet": "Rajagopalachari statue to replace Edward Lutyens' at Rashtrapati Bhavan The Federal",
-          "source": "The Federal",
-          "published": "Sun, 22 Feb 2026 08:00:00 GMT",
-          "relevance": 0
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "India became a republic in 1950",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database. Relevant web evidence was retrieved, but it requires further comparison before assigning a final verdict.",
-      "sources": [
-        {
-          "title": "Indian Air Force Day: How the IAF Began in 1932 - MiGFlug",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb2JEa2tTTzBpWGN4ZzVQNGlHaldKUERQeEdtQmE2UFk4MktHbXNYazQ0alYxeXpTV25VRXJ6MFlYWlRoRnp6SUluVTMzRENjZ0dVcS1ZT3pIMGNoNGdzOHYzcjIySEYzbWZvMDVkckc5dF9RYnE4QUZHeTIwdGhNZ0x0TkxDTTZDQmZFdld3NkpMWHlfcHAyRGZsUDV1VjZqQkE?oc=5",
-          "snippet": "Indian Air Force Day: How the IAF Began in 1932 MiGFlug",
-          "source": "MiGFlug",
-          "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Skies of courage: India's air warriors turn ninety-four - WION",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkplU3daOXdlVWZMRDFRTUhHSW9mX3Z3QzRES1hLVTFlNzJzUG1ta0o1MUdDOWJmVFBra2RmakJSdG5wUmNSWDRRajZtTW4zTUdGNGlFbGlGeHVsOG1TX0xEVWJpbGE4WFBOYW5iTWx3Si1lNnJoeE1oVDd4a0RqbHkwTHBvVktGU28ybDdhbVNMSGhEMHVDd0xWZWIzeUtJSW5aMHo2R1BoSHhC0gGyAUFVX3lxTE05UmhkUmd5a3VkOWIybVFDOW5kQWJMam81WHdLaWNMcU1JRWVZY2pOblJhVXNkM29ucmtWendfLXhVT0IwNGV4eGtIOVFubGRKdDhWb2ljZERsdHRSWS1DYWp1RFluZVdBZXdvaFIxekRPQ2NyNjRSY3dkNndGNUcyVU5CYWx5c0xqSnQ5LXliNVNWS1hxaWxqd2t5dVJZM19fbW5mWHhrbmM0M042YjRtUmc?oc=5",
-          "snippet": "Skies of courage: India's air warriors turn ninety-four WION",
-          "source": "WION",
-          "published": "Wed, 07 Oct 2026 15:56:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Vande Mataram - Britannica",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BUzlpOTVjMmVuUDVTTXFJb29vcXlxUUVBZENnckcxLVQxVzV6RlZ6dElMMEw4bWFEakhLdkNMLURHb1ktX1JvcWZ0NE84MWVDZzlTRmlTcENjQQ?oc=5",
-          "snippet": "Vande Mataram Britannica",
-          "source": "Britannica",
-          "published": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Republic Day Tableau 2026, Meaning, List, Theme, Winners - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YeDF4ck1DdEJtSGx0RFBoSFBNWlF1QlpMS0JYb1ZhcTNnT2NIUjhjd2dSQ0I5cnZnY3BnSTR0ZVVlMmJjTkZvNHNBSW45c3JkVUo2ZHYzUmI2Rms0eTNWa2hOdURqVC11RHY0UjJPZVBadw?oc=5",
-          "snippet": "Republic Day Tableau 2026, Meaning, List, Theme, Winners Vajiram & Ravi",
-          "source": "Vajiram & Ravi",
-          "published": "Sat, 04 Jul 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Beyond the Passport: The Legal Ambiguity of Indian Citizenship - NewsGram",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc2U0dWFWQ3N0Z3B0RkVwZTEzT1ZjSDVXYzFtT2dMc3NzMU1tWno2dEFQSHRIWmh6Nm9rLXRsQ1FHMmVZN0RybmxGbzZaM2JtTkNaSm5nbm9Pd2RubEZ4OWRBQTZ2TFl4aUpFbm5IVTJnb0t0SS1CT1RhOHB0S1FmZHR0OC1ld9IBkwFBVV95cUxNSWY1Q0ZJYjEycFhENEttTDY5Yy1IZkN1eWJLX3N2SWdCUTVrQjg3N25iUEJLTHBENEczWlQ0VUp6Um93WUJmZUNiaXhza1Q2RjFUbEdlTUtOWnRzeDg3Z2wzb1FYMTdoN2lReTR2WW9ZemtIVnhLYXJXcEw5dVVHblB0R3FxRXNxVzFaX21tN0J0a2M?oc=5",
-          "snippet": "Beyond the Passport: The Legal Ambiguity of Indian Citizenship NewsGram",
-          "source": "NewsGram",
-          "published": "Tue, 14 Jul 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "India's first Republic Day parade - Brut",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZF9leEZPRnRrTkt2d0lhYUJPSFdyME1iaFdWc3ZyMHdnRmRlZl8xOGNFRkZIYkpWX0pTOHBkX3RNOVBnbU9jaVBCbl9hQ3NBTlh3dUI5Nmt5ZzRmTlg3LTVaNzJBUzl6SmpsbzNhMlMxS2xFUHlieHBMd1l2ZG42bjRlV2dZeE5R?oc=5",
-          "snippet": "India's first Republic Day parade Brut",
-          "source": "Brut",
-          "published": "Sun, 25 Jan 2026 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Explained: How India Became A Republic On January 26, 1950 - NDTV",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdTlLX0FUZklLYmotY3NxaVBTTnFpMV93YjRlQXE5anVleHhsb1ZYMUVqY2YtTVlCcFBZNVJvMnVfQlQyeFdRTzVkbzF5X2RDb0hLVV9GR01ZbTRlbU95cHRUaUhYWFlubGVaR183RGo5amJrU0l2bUtmMmwxaWt4a3BmVVhDbmsxN2RvSVhLWFdGc0J40gGcAUFVX3lxTE5ZWDhMNUJHUUoyR1RQZ0dPdlFoMWdMRmoxNjRjOWF4SjhPVVNFdUowdTZITUpEb0NSVUNrRmZSQlpkOUN1czkxaFhOUFlBVGMyNF85RTcxLVFRcmstTVVBNjMwM21oNzk5ejFkR25aM1NuV0ZIMmhVMUtDbkJfTV9MdW4zeUhfTTM4cExoYktvcmxCMWxua0tQUktReg?oc=5",
-          "snippet": "Explained: How India Became A Republic On January 26, 1950 NDTV",
-          "source": "NDTV",
-          "published": "Sat, 25 Jan 2025 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "From The Constitution To The Flag, 10 Lesser-Known Facts About Republic Day - Curly Tales",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcUJKSWN0TGdiNWxQRzFJc3BnRmFkLXBMemprMjh5Vk1hUUYyNlJCcWlkMVJEMUJ4VGFDUmpialMzQkxudXllUVNldjJmbGllbGVMdFZBQS1qaHBWb2RBSUdRSmZxbFdfNkJ6WW1JZXMwRjhUc29rdzlsbEM5V2lmV1JJemNwS2pPSXd1OVZWeUxxVGFVaE9uOURvdEFIT2dhZ0pDaldONmw0akpMRmF0YW1jUdIBuAFBVV95cUxNczBKNXQtRnZOLU0wbHh4dUJmejRtaTdfckh3T0x5dW43bDdQbkVWN2pCNHJBT293MVRMZjgyYktmVnVCSG4xUmtLSjZibjNqVnJPQkZXUEU5T0R6cUxXNl8ySlAyemxFLUpxdlI5MG4xTHpCODFzN0VZbDJ2d1pEMzA0RktuMnFXcVgwTlVSbWg3LTlLTU40OHRLcWstdVlyY25GTmZZNW8zVkN0aHBhMVlMaXU4bHJW?oc=5",
-          "snippet": "From The Constitution To The Flag, 10 Lesser-Known Facts About Republic Day Curly Tales",
-          "source": "Curly Tales",
-          "published": "Thu, 22 Jan 2026 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Republic Day 2026 Best Speech & Essay Ideas: Republic Day Speech in English, Long and Short Speeches for - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNeWc1aERvS1E1ay1aZU4tZ29ERkd3dkdhZEVvMTVBXy1XaDNDREJNVlpwZTJORTRDekJpVk5vVTZzaFc1SkVVeWlKZThtYU1zVlduRFprZXUtNHJxN1lkR2ZrZE81Wlg3cjQ2aTZqUElpX1hqbnY4dEJONWstSVVVeVhsSVg1NWdSYlBFUGhKWGdqR3lqOWhhLTJaTWFseTRpdXZXX2RFRGlmOWI3dTFweC11SWVuU1EzT1dkaGg3enpUZlhMbTBpdzFlS3p3MWtIcjlCSHhzaERUZjBTRUJrMkJUbjUtSWh4b1ZMa0NUSXBxcktCVzBrdVJvUmF5dHR2MkpnQzZoSTFXSDBLWHpMaDMzeTNoSUw0MEE4aGFuS2RLZ0o0dWc5VC1Mc1nSAbICQVVfeXFMT2t3VjFvTGNZdVhrNGxEUUJ2MEdtemN1NDhGemwzeFFKcGZaWDY2czZvRkpOT0o0VUlUdEl3QUZmdXZFNFIyN3MwbmZ1bjB3U1BBUnFidnRJVjZCWlQtdXJIMk9razYzU19aSlY0aXN3NHlRVkZGWk9SS2syVm1GZHpsT1lxdUxlUFpxYVJHbmtTSnIxSVVHRUx4VEpYaTFrSEQxV0l2TU9rMUpsek9temNsZUwwSHVBTW03MTBOMVJ1RjBKNjZqWXBJY09HRGt5ODRrNVBHY0NaMlJfWmVzYUo5S2QyOVYtMnRTT0sxWkJERmlST2VjdlpzamZTaGR2anJFV1prWHFNZWRsSzEtQUI5VW9FU0VqNENaVGtSN0hiRnNtei1fNUpkRllLUkQwNTZ3?oc=5",
-          "snippet": "Republic Day 2026 Best Speech & Essay Ideas: Republic Day Speech in English, Long and Short Speeches for The Times of India",
-          "source": "The Times of India",
-          "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Explained: How India Became A Republic In 1950 - NDTV",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGxKc1M2aXlUVnNEV1FFdGdvcE5RM0FfMHpBaU9aQjhJbmFUS0JSVmJhMjVPVVZJNGVtNUhFcmViUXB0b2lpcUVJcXpsZjNIYUdsUEZMMjJKdTJtLTVpYjk4WmNPTGM0elpaRm9CNHFoU1F4SVRrTDR2R1JNdWdxaVV5N0tzS3VmUG94dVJ5Z1FmT2t3MmhLb20tNGw5THB2OHNMUFFB0gGuAUFVX3lxTE1ISjlOeU5Qa28zblpwUXNQTkRFVG1xWXV5OVJKaTBRWXpBRUxYNjVpVGFWRm9kV2hIeXRGS0JObDU3QWZ6ZWkwUkZTSU1lZnl5ZU5WWkJ0cElmUElGc1JXV0hMTkRoVHN6Wkt2MTJEaWVTSFU5UEpTb082UnhIWC14bW5uOFFVRHlZTEJadUR0dHZOdnJtbXRtWWJpUEYxaHE1YVhOck1VakphLUVwZw?oc=5",
-          "snippet": "Explained: How India Became A Republic In 1950 NDTV",
-          "source": "NDTV",
-          "published": "Fri, 26 Jan 2024 08:00:00 GMT",
-          "relevance": 0
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "India became a republic in 1950",
-      "verdict": "SUPPORTED",
-      "confidence": 96.1,
-      "explanation": "At least two distinct domains contain evidence consistent with the claim according to the NLI model. Check the linked sources and their context.",
-      "sources": [
-        {
-          "title": "Republic Day (India) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Republic_Day_(India)",
-          "snippet": "Republic Day is a national holiday in India commemorating the adoption of the Constitution of the Republic of India and the country's transition to a republic which came into effect on 26 January 1950.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9679768085479736,
-            "refutes": 0.0018210419220849872,
-            "neutral": 0.030202167108654976
+        "domain": "ndtv.com"
+      },
+      {
+        "id": "TL0037",
+        "title": "The Constitution of India came into force on 26 January 1950.",
+        "claim": "The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4848,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.9180472493171692,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "History of India (1947-present) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
-          "snippet": "Jawaharlal Nehru, the first prime minister of India, often regarded as the architect of modern India, addressing a newly independent India on 15 August 1947 The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.0023148469626903534,
-            "refutes": 0.7714494466781616,
-            "neutral": 0.22623573243618011
+        "domain": ""
+      },
+      {
+        "id": "TL0195",
+        "title": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Fact check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4677,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.8534650206565857,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Explained: How India Became A Republic In 1950 - NDTV.com",
-          "url": "https://www.ndtv.com/india-news/republic-day-2024-explained-how-india-became-a-republic-in-1950-4933815",
-          "snippet": "Republic Day 2024: The transition from a dominion under British rule to a sovereign, democratic republic on January 26, 1950, stands as a defining moment in India's history.",
-          "source": "www.ndtv.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.993455708026886,
-            "refutes": 0.0009426120668649673,
-            "neutral": 0.005601696204394102
+        "domain": ""
+      },
+      {
+        "id": "TL0196",
+        "title": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "claim": "Truth check: The Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4663,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.8615707755088806,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "Explained: How India Became A Republic On January 26, 1950",
-          "url": "https://www.ndtv.com/india-news/how-india-emerged-as-a-republic-on-january-26-1950-7554586",
-          "snippet": "India became an independent nation on August 15, 1947, ending nearly 200 years of British rule. But it got its Constitution on January 26, 1950. How India Became A Republic In 1950?",
-          "source": "www.ndtv.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9676513075828552,
-            "refutes": 0.0019753859378397465,
-            "neutral": 0.030373331159353256
+        "domain": ""
+      },
+      {
+        "id": "TL0194",
+        "title": "Is it true that the Constitution of India came into force on 26 January 1950.",
+        "claim": "Is it true that the Constitution of India came into force on 26 January 1950.",
+        "verdict": "SUPPORTED",
+        "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "topic": "Constitution & Law",
+        "keywords": [
+          "constitution",
+          "india",
+          "law",
+          "fact check",
+          "truthlens"
+        ],
+        "sources": [
+          {
+            "name": "Constitution of India",
+            "url": "https://www.indiacode.nic.in/",
+            "type": "Primary"
           }
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day. This record is a searchable claim variant.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.4611,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.8755224347114563,
+          "label": "NEUTRAL"
         },
-        {
-          "title": "History Today: How India became a Republic on January 26, 1950 - Firstpost",
-          "url": "https://www.firstpost.com/explainers/history-today-india-became-a-republic-on-january-26-1950-13855942.html",
-          "snippet": "India becomes a republic in 1950 Though India became a free nation on August 15, 1947, it declared itself a sovereign, democratic and republic state with the adoption of the Constitution on January 26, 1950.",
-          "source": "www.firstpost.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9889666438102722,
-            "refutes": 0.0004631487827282399,
-            "neutral": 0.010570225305855274
+        "domain": ""
+      },
+      {
+        "id": "TL0074",
+        "title": "The Reserve Bank of India is India's central bank.",
+        "claim": "The Reserve Bank of India is India's central bank.",
+        "verdict": "SUPPORTED",
+        "explanation": "RBI describes itself as India's central bank and carries out functions assigned to it by law.",
+        "topic": "Economy",
+        "keywords": [
+          "economy",
+          "gdp",
+          "rbi"
+        ],
+        "sources": [
+          {
+            "name": "RBI",
+            "url": "https://www.rbi.org.in/",
+            "type": "Primary"
           }
-        },
-        {
-          "title": "Republic of India born | January 26, 1950 | HISTORY",
-          "url": "https://www.history.com/this-day-in-history/January-26/republic-of-india-born",
-          "snippet": "Jul 21, 2010 · In late 1949, an Indian constitution was adopted, and on January 26, 1950, the Republic of India was born. With universal adult franchise, Nehru hoped to overcome India’s “caste-ridden”...",
-          "source": "www.history.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9746471643447876,
-            "refutes": 0.0014949776232242584,
-            "neutral": 0.02385779097676277
-          }
-        },
-        {
-          "title": "From colonial rule to a Republic: Why India became a republic ...",
-          "url": "https://timesofindia.indiatimes.com/education/news/from-colonial-rule-to-a-republic-why-india-became-a-republic-three-years-after-independence/articleshow/133212368.cms",
-          "snippet": "Aug 13, 2026 · For nearly two and a half years, the newly independent country continued with a transitional constitutional arrangement. India became a Republic on 26 January 1950, when the Constitution came into force and replaced the colonial-era constitutional framework. The distinction is important.",
-          "source": "timesofindia.indiatimes.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.8696977496147156,
-            "refutes": 0.013330335728824139,
-            "neutral": 0.11697189509868622
-          }
-        },
-        {
-          "title": "What does Republic mean? Why January 26, 1950 changed India ...",
-          "url": "https://www.news9live.com/opinion-analysis/what-does-the-republic-actually-mean-3009432",
-          "snippet": "Sep 21, 2026 · India gained independence in 1947, but why did it take another two and a half years to become a republic? In today's 'YOUR INDIA' column, Santosh Nair writes about what changed on January 26, 1950, why the date was chosen and what becoming a republic actually meant for India.",
-          "source": "www.news9live.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9714136719703674,
-            "refutes": 0.009009272791445255,
-            "neutral": 0.019577080383896828
-          }
-        },
-        {
-          "title": "The Republic that bent but never broke: India’s Constitution ...",
-          "url": "https://zeenews.india.com/india/the-republic-that-bent-but-never-broke-india-s-constitution-tested-like-never-before-3010341.html",
-          "snippet": "Jan 25, 2026 · From the optimism of 1950 to the complexity of the present, India’s constitutional journey shows that the Republic was never meant to be static. It was meant to argue, to evolve, and, above...",
-          "source": "zeenews.india.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.03558812662959099,
-            "refutes": 0.01214450504630804,
-            "neutral": 0.9522673487663269
-          }
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search + NLI"
-    },
-    {
-      "claim": "India became a republic in 1950",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database. Relevant web evidence was retrieved, but it requires further comparison before assigning a final verdict.",
-      "sources": [
-        {
-          "title": "Indian Air Force Day: Four Wapitis and the Birth of the IAF in 1932 - MiGFlug",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYURKSTB3a2VmR3NncHFrd1FYclJ3ZjZVQ3l2ZThGNkxGVDBoRVI0ZjVVLThRVjlIb3dXU2luQ0RzM0NEdTdyWGg4UXIwU19CY3VjOGVrSTFiNVlSQWpaTUo5cjNramhiVU9mVDhoMHczSUxpMFo1djNoRHA4VDk1WXREamZNOEtMOGF3al9Yalk3SUQzMWlCdEEtVVZMZw?oc=5",
-          "snippet": "Indian Air Force Day: Four Wapitis and the Birth of the IAF in 1932 MiGFlug",
-          "source": "MiGFlug",
-          "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Vande Mataram - Britannica",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BUzlpOTVjMmVuUDVTTXFJb29vcXlxUUVBZENnckcxLVQxVzV6RlZ6dElMMEw4bWFEakhLdkNMLURHb1ktX1JvcWZ0NE84MWVDZzlTRmlTcENjQQ?oc=5",
-          "snippet": "Vande Mataram Britannica",
-          "source": "Britannica",
-          "published": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Skies of courage: India's air warriors turn ninety-four - WION",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkplU3daOXdlVWZMRDFRTUhHSW9mX3Z3QzRES1hLVTFlNzJzUG1ta0o1MUdDOWJmVFBra2RmakJSdG5wUmNSWDRRajZtTW4zTUdGNGlFbGlGeHVsOG1TX0xEVWJpbGE4WFBOYW5iTWx3Si1lNnJoeE1oVDd4a0RqbHkwTHBvVktGU28ybDdhbVNMSGhEMHVDd0xWZWIzeUtJSW5aMHo2R1BoSHhC0gGyAUFVX3lxTE05UmhkUmd5a3VkOWIybVFDOW5kQWJMam81WHdLaWNMcU1JRWVZY2pOblJhVXNkM29ucmtWendfLXhVT0IwNGV4eGtIOVFubGRKdDhWb2ljZERsdHRSWS1DYWp1RFluZVdBZXdvaFIxekRPQ2NyNjRSY3dkNndGNUcyVU5CYWx5c0xqSnQ5LXliNVNWS1hxaWxqd2t5dVJZM19fbW5mWHhrbmM0M042YjRtUmc?oc=5",
-          "snippet": "Skies of courage: India's air warriors turn ninety-four WION",
-          "source": "WION",
-          "published": "Wed, 07 Oct 2026 15:56:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Republic Day Tableau 2026, Meaning, List, Theme, Winners - Vajiram & Ravi",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YeDF4ck1DdEJtSGx0RFBoSFBNWlF1QlpMS0JYb1ZhcTNnT2NIUjhjd2dSQ0I5cnZnY3BnSTR0ZVVlMmJjTkZvNHNBSW45c3JkVUo2ZHYzUmI2Rms0eTNWa2hOdURqVC11RHY0UjJPZVBadw?oc=5",
-          "snippet": "Republic Day Tableau 2026, Meaning, List, Theme, Winners Vajiram & Ravi",
-          "source": "Vajiram & Ravi",
-          "published": "Sat, 04 Jul 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Beyond the Passport: The Legal Ambiguity of Indian Citizenship - NewsGram",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc2U0dWFWQ3N0Z3B0RkVwZTEzT1ZjSDVXYzFtT2dMc3NzMU1tWno2dEFQSHRIWmh6Nm9rLXRsQ1FHMmVZN0RybmxGbzZaM2JtTkNaSm5nbm9Pd2RubEZ4OWRBQTZ2TFl4aUpFbm5IVTJnb0t0SS1CT1RhOHB0S1FmZHR0OC1ld9IBkwFBVV95cUxNSWY1Q0ZJYjEycFhENEttTDY5Yy1IZkN1eWJLX3N2SWdCUTVrQjg3N25iUEJLTHBENEczWlQ0VUp6Um93WUJmZUNiaXhza1Q2RjFUbEdlTUtOWnRzeDg3Z2wzb1FYMTdoN2lReTR2WW9ZemtIVnhLYXJXcEw5dVVHblB0R3FxRXNxVzFaX21tN0J0a2M?oc=5",
-          "snippet": "Beyond the Passport: The Legal Ambiguity of Indian Citizenship NewsGram",
-          "source": "NewsGram",
-          "published": "Tue, 14 Jul 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "India's first Republic Day parade - Brut",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZF9leEZPRnRrTkt2d0lhYUJPSFdyME1iaFdWc3ZyMHdnRmRlZl8xOGNFRkZIYkpWX0pTOHBkX3RNOVBnbU9jaVBCbl9hQ3NBTlh3dUI5Nmt5ZzRmTlg3LTVaNzJBUzl6SmpsbzNhMlMxS2xFUHlieHBMd1l2ZG42bjRlV2dZeE5R?oc=5",
-          "snippet": "India's first Republic Day parade Brut",
-          "source": "Brut",
-          "published": "Sun, 25 Jan 2026 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Explained: How India Became A Republic On January 26, 1950 - NDTV",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdTlLX0FUZklLYmotY3NxaVBTTnFpMV93YjRlQXE5anVleHhsb1ZYMUVqY2YtTVlCcFBZNVJvMnVfQlQyeFdRTzVkbzF5X2RDb0hLVV9GR01ZbTRlbU95cHRUaUhYWFlubGVaR183RGo5amJrU0l2bUtmMmwxaWt4a3BmVVhDbmsxN2RvSVhLWFdGc0J40gGcAUFVX3lxTE5ZWDhMNUJHUUoyR1RQZ0dPdlFoMWdMRmoxNjRjOWF4SjhPVVNFdUowdTZITUpEb0NSVUNrRmZSQlpkOUN1czkxaFhOUFlBVGMyNF85RTcxLVFRcmstTVVBNjMwM21oNzk5ejFkR25aM1NuV0ZIMmhVMUtDbkJfTV9MdW4zeUhfTTM4cExoYktvcmxCMWxua0tQUktReg?oc=5",
-          "snippet": "Explained: How India Became A Republic On January 26, 1950 NDTV",
-          "source": "NDTV",
-          "published": "Sat, 25 Jan 2025 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "From The Constitution To The Flag, 10 Lesser-Known Facts About Republic Day - Curly Tales",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcUJKSWN0TGdiNWxQRzFJc3BnRmFkLXBMemprMjh5Vk1hUUYyNlJCcWlkMVJEMUJ4VGFDUmpialMzQkxudXllUVNldjJmbGllbGVMdFZBQS1qaHBWb2RBSUdRSmZxbFdfNkJ6WW1JZXMwRjhUc29rdzlsbEM5V2lmV1JJemNwS2pPSXd1OVZWeUxxVGFVaE9uOURvdEFIT2dhZ0pDaldONmw0akpMRmF0YW1jUdIBuAFBVV95cUxNczBKNXQtRnZOLU0wbHh4dUJmejRtaTdfckh3T0x5dW43bDdQbkVWN2pCNHJBT293MVRMZjgyYktmVnVCSG4xUmtLSjZibjNqVnJPQkZXUEU5T0R6cUxXNl8ySlAyemxFLUpxdlI5MG4xTHpCODFzN0VZbDJ2d1pEMzA0RktuMnFXcVgwTlVSbWg3LTlLTU40OHRLcWstdVlyY25GTmZZNW8zVkN0aHBhMVlMaXU4bHJW?oc=5",
-          "snippet": "From The Constitution To The Flag, 10 Lesser-Known Facts About Republic Day Curly Tales",
-          "source": "Curly Tales",
-          "published": "Thu, 22 Jan 2026 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Republic Day 2026 Best Speech & Essay Ideas: Republic Day Speech in English, Long and Short Speeches for - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNeWc1aERvS1E1ay1aZU4tZ29ERkd3dkdhZEVvMTVBXy1XaDNDREJNVlpwZTJORTRDekJpVk5vVTZzaFc1SkVVeWlKZThtYU1zVlduRFprZXUtNHJxN1lkR2ZrZE81Wlg3cjQ2aTZqUElpX1hqbnY4dEJONWstSVVVeVhsSVg1NWdSYlBFUGhKWGdqR3lqOWhhLTJaTWFseTRpdXZXX2RFRGlmOWI3dTFweC11SWVuU1EzT1dkaGg3enpUZlhMbTBpdzFlS3p3MWtIcjlCSHhzaERUZjBTRUJrMkJUbjUtSWh4b1ZMa0NUSXBxcktCVzBrdVJvUmF5dHR2MkpnQzZoSTFXSDBLWHpMaDMzeTNoSUw0MEE4aGFuS2RLZ0o0dWc5VC1Mc1nSAbICQVVfeXFMT2t3VjFvTGNZdVhrNGxEUUJ2MEdtemN1NDhGemwzeFFKcGZaWDY2czZvRkpOT0o0VUlUdEl3QUZmdXZFNFIyN3MwbmZ1bjB3U1BBUnFidnRJVjZCWlQtdXJIMk9razYzU19aSlY0aXN3NHlRVkZGWk9SS2syVm1GZHpsT1lxdUxlUFpxYVJHbmtTSnIxSVVHRUx4VEpYaTFrSEQxV0l2TU9rMUpsek9temNsZUwwSHVBTW03MTBOMVJ1RjBKNjZqWXBJY09HRGt5ODRrNVBHY0NaMlJfWmVzYUo5S2QyOVYtMnRTT0sxWkJERmlST2VjdlpzamZTaGR2anJFV1prWHFNZWRsSzEtQUI5VW9FU0VqNENaVGtSN0hiRnNtei1fNUpkRllLUkQwNTZ3?oc=5",
-          "snippet": "Republic Day 2026 Best Speech & Essay Ideas: Republic Day Speech in English, Long and Short Speeches for The Times of India",
-          "source": "The Times of India",
-          "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Rajagopalachari statue to replace Edward Lutyens' at Rashtrapati Bhavan - The Federal",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX2p6N0YzdzNKOEotVVgzRDRKZ2hON1hvcVpub1hINEpaRlJaN3Ezb2VfZWY2M25CUURaY254dm51YXBtOW4zSjJVZHZvdzBrM3Z4ZmtWMlNjQXRGWDF4Z0NwNTJRVG9fRFBTUW1UUlhxeWtQU3NzR0ZCcEcycWo0R0xVMTZSU2k2MTBMeTBEdkp2X2xlVDZyTjdOSHJoVFQ4OFNYeWptR1Z2RURlS2JZRlVHWmU5WDU0TlRaZmVIS3J3dk1YUUxvMHhaMjVYdw?oc=5",
-          "snippet": "Rajagopalachari statue to replace Edward Lutyens' at Rashtrapati Bhavan The Federal",
-          "source": "The Federal",
-          "published": "Sun, 22 Feb 2026 08:00:00 GMT",
-          "relevance": 0
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "India became a republic in 1950",
-      "verdict": "SUPPORTED",
-      "confidence": 96.15,
-      "explanation": "At least two distinct domains contain evidence consistent with the claim according to the NLI model. Check the linked sources and their context.",
-      "sources": [
-        {
-          "title": "Republic Day (India) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Republic_Day_(India)",
-          "snippet": "Republic Day is a national holiday in India commemorating the adoption of the Constitution of the Republic of India and the country's transition to a republic which came into effect on 26 January 1950.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9679768085479736,
-            "refutes": 0.0018210419220849872,
-            "neutral": 0.030202167108654976
-          }
-        },
-        {
-          "title": "History of India (1947–present) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
-          "snippet": "The constitution adopted in 1950 made India a democratic republic with Westminster style parliamentary system of government, both at federal and state level respectively. The democracy has been sustained since then.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9068760275840759,
-            "refutes": 0.004778686445206404,
-            "neutral": 0.08834528177976608
-          }
-        },
-        {
-          "title": "Explained: How India Became A Republic In 1950 - NDTV.com",
-          "url": "https://www.ndtv.com/india-news/republic-day-2024-explained-how-india-became-a-republic-in-1950-4933815",
-          "snippet": "Jan 26, 2024 · On January 26, 1950, the Constitution of India came into effect, replacing the colonial-era Government of India Act of 1935. This marked the birth of the Indian Republic, and Dr Rajendra Prasad...",
-          "source": "www.ndtv.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9893765449523926,
-            "refutes": 0.0010074070887640119,
-            "neutral": 0.00961608812212944
-          }
-        },
-        {
-          "title": "Explained: How India Became A Republic On January 26, 1950",
-          "url": "https://www.ndtv.com/india-news/how-india-emerged-as-a-republic-on-january-26-1950-7554586",
-          "snippet": "Jan 25, 2025 · While India became an independent nation on August 15, 1947, it got its Constitution on January 26, 1950. India is gearing up to celebrate its 76th Republic Day on Sunday.",
-          "source": "www.ndtv.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.966635525226593,
-            "refutes": 0.004682664759457111,
-            "neutral": 0.028681859374046326
-          }
-        },
-        {
-          "title": "January 26 Explained: Why India Became a Republic - Not Just ...",
-          "url": "https://www.timesnownews.com/india/republic-day-january-26-explained-why-india-became-a-republic-not-just-independent-nation-in-1950-article-153505561",
-          "snippet": "Jan 25, 2026 · New Delhi: India’s Republic Day on January 26 marks the date in history when its own constitution came into force in 1950. The development marked the complete transition of power from British colonial rule to the Indian leadership.",
-          "source": "www.timesnownews.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9338847994804382,
-            "refutes": 0.003144202521070838,
-            "neutral": 0.06297096610069275
-          }
-        },
-        {
-          "title": "Republic of India born | January 26, 1950 | HISTORY",
-          "url": "https://www.history.com/this-day-in-history/January-26/republic-of-india-born",
-          "snippet": "Jul 21, 2010 · In late 1949, an Indian constitution was adopted, and on January 26, 1950, the Republic of India was born. With universal adult franchise, Nehru hoped to overcome India’s “caste-ridden”...",
-          "source": "www.history.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9746471643447876,
-            "refutes": 0.0014949776232242584,
-            "neutral": 0.02385779097676277
-          }
-        },
-        {
-          "title": "History Today: How India became a Republic on January 26, 1950",
-          "url": "https://www.firstpost.com/explainers/history-today-india-became-a-republic-on-january-26-1950-13855942.html",
-          "snippet": "Jan 26, 2025 · Though India became a free nation on August 15, 1947, it declared itself a sovereign, democratic and republic state with the adoption of the Constitution on January 26, 1950.",
-          "source": "www.firstpost.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.98919278383255,
-            "refutes": 0.0012686110567301512,
-            "neutral": 0.009538628160953522
-          }
-        },
-        {
-          "title": "How India Became a Republic on January 26, 1950",
-          "url": "https://gallivant.co.in/history/how-india-became-a-republic-on-january-26-1950/",
-          "snippet": "Jan 26, 2025 · On January 26, 1950, India transitioned into a republic, marking a pivotal moment in its history. This transformation was not just about adopting a new Constitution but about realizing the aspirations of millions who fought for independence and envisioned a sovereign, secular, and democratic nation.",
-          "source": "gallivant.co.in",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9927574396133423,
-            "refutes": 0.0007181086693890393,
-            "neutral": 0.006524376571178436
-          }
-        },
-        {
-          "title": "From colonial rule to a Republic: Why India became a republic ...",
-          "url": "https://timesofindia.indiatimes.com/education/news/from-colonial-rule-to-a-republic-why-india-became-a-republic-three-years-after-independence/articleshow/133212368.cms",
-          "snippet": "Aug 13, 2026 · For nearly two and a half years, the newly independent country continued with a transitional constitutional arrangement. India became a Republic on 26 January 1950, when the Constitution came into force and replaced the colonial-era constitutional framework. The distinction is important.",
-          "source": "timesofindia.indiatimes.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.8696977496147156,
-            "refutes": 0.013330335728824139,
-            "neutral": 0.11697189509868622
-          }
-        },
-        {
-          "title": "How India Became Republic - indiansinkuwait.com",
-          "url": "https://www.indiansinkuwait.com/rDayarticle/71671/71671-How-India-Became-Republic/",
-          "snippet": "The transition from the British rule to a democratic republic on 26 January 1950 marked a defining moment in India’s history. This journey was made possible by planning, hard work, and strong determination among the people across the nation.",
-          "source": "www.indiansinkuwait.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9740793704986572,
-            "refutes": 0.0011506485752761364,
-            "neutral": 0.024769993498921394
-          }
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search + NLI"
-    },
-    {
-      "claim": "India became independent in 1950",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "The retrieved sources contain conflicting evidence. Review the source context before deciding.",
-      "sources": [
-        {
-          "title": "History of India (1947-present) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
-          "snippet": "The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.0013871635310351849,
-            "refutes": 0.9916608929634094,
-            "neutral": 0.006952055264264345
-          }
-        },
-        {
-          "title": "Dominion of India - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dominion_of_India",
-          "snippet": "The Dominion of India, officially the Union of India, [7] was an independent dominion in the British Commonwealth of Nations existing between 15 August 1947 and 26 January 1950. [8] Until its independence, India had been ruled as an informal empire by the United Kingdom. The empire, also called the British Raj and sometimes the British Indian Empire, consisted of regions, collectively called ...",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.8548250794410706,
-            "refutes": 0.044645197689533234,
-            "neutral": 0.10052968561649323
-          }
-        },
-        {
-          "title": "Independent India - MANAS",
-          "url": "https://southasia.ucla.edu/history-politics/independent-india/",
-          "snippet": "On 26 January 1950, India became a Republic, and the Constitution of India was promulgated. Jawaharlal Nehru had become the country's first Prime Minister in 1947, and in 1952, in the country's first general election with a universal franchise, Nehru led the Indian National Congress to a clear victory.",
-          "source": "southasia.ucla.edu",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9467194080352783,
-            "refutes": 0.017441269010305405,
-            "neutral": 0.03583931550383568
-          }
-        },
-        {
-          "title": "From colonial rule to a Republic: Why India became a republic three ...",
-          "url": "https://timesofindia.indiatimes.com/education/news/from-colonial-rule-to-a-republic-why-india-became-a-republic-three-years-after-independence/articleshow/133212368.cms",
-          "snippet": "India became independent from British rule on 15 August 1947, but it did not become a republic on that day. For nearly two and a half years, the newly independent country continued with a ...",
-          "source": "timesofindia.indiatimes.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.028834940865635872,
-            "refutes": 0.6340779662132263,
-            "neutral": 0.33708709478378296
-          }
-        },
-        {
-          "title": "What happened between 1947 and 1950 in India? - themsteaparty.com",
-          "url": "https://themsteaparty.com/what-happened-between-1947-and-1950-in-india/",
-          "snippet": "The period between 1947 and 1950 in India was a transformative era marked by the partition of British India, the establishment of the Republic of India, and the initial challenges of nation-building. This time saw the birth of two nations, India and Pakistan, alongside immense social upheaval and the drafting of its foundational constitution.",
-          "source": "themsteaparty.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.14681799709796906,
-            "refutes": 0.1303943544626236,
-            "neutral": 0.722787618637085
-          }
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search + NLI"
-    },
-    {
-      "claim": "India became independent in 1950",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "The available evidence did not meet the threshold for a supported or refuted verdict. This does not mean the claim is false; more reliable evidence may be needed.",
-      "sources": [
-        {
-          "title": "History of India (1947–present) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
-          "snippet": "The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.001256421790458262,
-            "refutes": 0.9917324781417847,
-            "neutral": 0.007011084351688623
-          }
-        },
-        {
-          "title": "Dominion of India - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dominion_of_India",
-          "snippet": "The Dominion of India lasted until 1950, at which time India became a republic within the Commonwealth with a president as head of state. [11]",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.7908649444580078,
-            "refutes": 0.04792512580752373,
-            "neutral": 0.16120994091033936
-          }
-        },
-        {
-          "title": "Independent India - MANAS",
-          "url": "https://southasia.ucla.edu/history-politics/independent-india/",
-          "snippet": "Following India’s independence in 1947, the Constituent Assembly deliberated over the precise constitutional future of India. On 26 January 1950, India became a Republic, and the Constitution of India was promulgated.",
-          "source": "southasia.ucla.edu",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.5836004614830017,
-            "refutes": 0.1669892817735672,
-            "neutral": 0.2494102567434311
-          }
-        },
-        {
-          "title": "Today in History: When India Became a Republic — 26 January 1950",
-          "url": "https://unite4india.com/governance/when-india-became-republic-26-january-1950/",
-          "snippet": "Apr 30, 2026 · On the morning of 26 January 1950, India ceased to be a dominion under the British Crown and became a sovereign democratic republic. The transition took effect at 10:18 AM, when Dr. Rajendra Prasad was sworn in as the first President of India in a ceremony held at the Durbar Hall of Government House in New Delhi.",
-          "source": "unite4india.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.7719969749450684,
-            "refutes": 0.03289039060473442,
-            "neutral": 0.19511264562606812
-          }
-        },
-        {
-          "title": "What happened between 1947 and 1950 in India? - themsteaparty.com",
-          "url": "https://themsteaparty.com/what-happened-between-1947-and-1950-in-india/",
-          "snippet": "Mar 15, 2026 · India officially became a republic on January 26, 1950, with the adoption and implementation of its constitution. This date signifies India’s transition from a dominion to a sovereign democratic republic.",
-          "source": "themsteaparty.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.14826729893684387,
-            "refutes": 0.18069882690906525,
-            "neutral": 0.6710338592529297
-          }
-        },
-        {
-          "title": "Indian independence movement - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Indian_independence_movement",
-          "snippet": "The Indian independence movement was a series of political efforts from the mid-1880s to 1947 that took place in the Indian subcontinent with the aim of ending British colonial rule. The first nationalistic movement took root when the Indian National Congress (INC) was formed in 1885. Prominent moderate leaders of the INC worked on demands such as greater economic rights for Indians and the ...",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.0075102089904248714,
-            "refutes": 0.8014163970947266,
-            "neutral": 0.1910734325647354
-          }
-        },
-        {
-          "title": "Republic of India born | January 26, 1950 | HISTORY",
-          "url": "https://www.history.com/this-day-in-history/January-26/republic-of-india-born",
-          "snippet": "On January 26, 1950, the Indian constitution takes effect, making the Republic of India the most populous democracy in the world.",
-          "source": "www.history.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.03696552664041519,
-            "refutes": 0.07468292862176895,
-            "neutral": 0.888351559638977
-          }
-        },
-        {
-          "title": "1950 in India - grokipedia.com",
-          "url": "https://grokipedia.com/page/1950_in_India",
-          "snippet": "1950 marked the establishment of India as a sovereign democratic republic, with the Constitution—adopted by the Constituent Assembly on 26 November 1949—coming into force on 26 January, thereby replacing the colonial Government of India Act 1935 and formalizing the nation's institutional framework including a parliamentary system, fundamental rights, directive principles, and an ...",
-          "source": "grokipedia.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.802934467792511,
-            "refutes": 0.021270491182804108,
-            "neutral": 0.1757950484752655
-          }
-        },
-        {
-          "title": "January 26 Explained: Why India Became a Republic - Not Just ...",
-          "url": "https://www.timesnownews.com/india/republic-day-january-26-explained-why-india-became-a-republic-not-just-independent-nation-in-1950-article-153505561",
-          "snippet": "Jan 25, 2026 · New Delhi: India’s Republic Day on January 26 marks the date in history when its own constitution came into force in 1950. The development marked the complete transition of power from British colonial rule to the Indian leadership.",
-          "source": "www.timesnownews.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.3620331287384033,
-            "refutes": 0.057198647409677505,
-            "neutral": 0.5807682275772095
-          }
-        },
-        {
-          "title": "THE MAKING OF MODERN INDIA — The Indian Panorama",
-          "url": "https://www.theindianpanorama.news/the-making-of-modern-india/",
-          "snippet": "Aug 15, 2026 · Would these states join India, join Pakistan or attempt to remain independent? The answer would determine whether the new country emerged as a united political entity or as a fragmented collection of territories.",
-          "source": "www.theindianpanorama.news",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.005078522488474846,
-            "refutes": 0.6913268566131592,
-            "neutral": 0.3035946190357208
-          }
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search + NLI"
-    },
-    {
-      "claim": "India became independent in 1947",
-      "verdict": "SUPPORTED",
-      "confidence": 92.8,
-      "explanation": "Multiple distinct domains contain text that the NLI model judged consistent with the claim. Check the linked sources to confirm context and reliability.",
-      "sources": [
-        {
-          "title": "History of India (1947-present) - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/History_of_India_(1947–present)",
-          "snippet": "The history of independent India or history of Republic of India began when the country became an independent sovereign state within the British Commonwealth on 15 August 1947. Direct administration by the British, which began in 1858, affected a political and economic unification of the subcontinent.",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9763995409011841,
-            "refutes": 0.004370571579784155,
-            "neutral": 0.01922985352575779
-          }
-        },
-        {
-          "title": "Indian Independence Act 1947 - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Indian_Independence_Act_1947",
-          "snippet": "The Indian Independence Act 1947 (10 & 11 Geo. 6. c. 30) is an act of the Parliament of the United Kingdom that partitioned British India into the two new independent dominions of India and Pakistan. On 15 July 1947 the House of Commons voted for the bill and the House of Lords gave its consent on the next day. The act received Royal Assent on 18 July 1947 and thus India and Pakistan (the ...",
-          "source": "en.wikipedia.org",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.6978499889373779,
-            "refutes": 0.011318141594529152,
-            "neutral": 0.29083186388015747
-          }
-        },
-        {
-          "title": "Indian Independence Act 1947, Background, Features, Significance, Impacts",
-          "url": "https://vajiramandravi.com/upsc-exam/indian-independence-act-1947/",
-          "snippet": "The Indian Independence Act 1947 ended the British authority in India and granted freedom to India on august 15, 1947. It partitioned India into two sovereigns, India and Pakistan.",
-          "source": "vajiramandravi.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.9088020324707031,
-            "refutes": 0.007641423027962446,
-            "neutral": 0.08355651795864105
-          }
-        },
-        {
-          "title": "Indian Independence Movement | History, Summary, Timeline, Causes ...",
-          "url": "https://www.britannica.com/topic/Indian-Independence-Movement",
-          "snippet": "The Indian Independence Movement was an anti-colonial struggle spanning approximately a century, aimed at ending British rule over the Indian subcontinent. The movement ended in a bittersweet victory, as the people of the subcontinent won freedom and independence, yet were painfully divided into two nations: India and Pakistan.",
-          "source": "www.britannica.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.0016559370560571551,
-            "refutes": 0.007794983219355345,
-            "neutral": 0.9905490279197693
-          }
-        },
-        {
-          "title": "India, Pakistan win independence | August 15, 1947 | HISTORY",
-          "url": "https://www.history.com/this-day-in-history/August-15/india-and-pakistan-win-independence",
-          "snippet": "The Indian Independence Bill, which carves the two independent nations of India and Pakistan out of the former Mogul Empire, comes into force at the stroke of midnight on August 15, 1947. In the ...",
-          "source": "www.history.com",
-          "published": "",
-          "relevance": 0,
-          "evidence_analysis": {
-            "supports": 0.8987146615982056,
-            "refutes": 0.008574760518968105,
-            "neutral": 0.09271060675382614
-          }
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search + NLI"
-    },
-    {
-      "claim": "india got independence in 1947.",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database. Relevant web evidence was retrieved, but it requires further comparison before assigning a final verdict.",
-      "sources": [
-        {
-          "title": "Nehru, Kashmir and the Cost of the Indus Waters Treaty - Frontline Magazine",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQTJvUFpwNWVyZmZqUnc5cWFjMjhLMUlfZ0hFQ0JtRzhYQlJWZUxSWmdFejZuelRablZLQlpIaXdiMm9oQXNnekFPbHVhZlJuQXNXSk91Qmp0SEs5eWI1TGstUUVWOWxxUi1DazRRMDBVakRFa3N6eDhtYlgxY1VqVy02NFRrODE3eDM4Y3k4YnJGSWtvRDZfbkZIZlU1MV9hbjEzc1BzWWxyNUtPRF9tSlpaeHFyNmktVHFaSGRfUdIBxgFBVV95cUxPUmxXWTNVVFJZMURXVl94dGtkTnkwbmhIOE1Vdmd2Z0VFMUlWczR6SnJyUHhldG1BaC1hclp0U0FFZXk1UGo1eVZQTHNOMUFlQjY1Ylk1dGVMa0Zqc0Y5V3FGdWU5bHk5SVBySDMtNUd2V3oxRkhqV0dMekpiYXdEN0ZkQUdqY25jUmIyUHV0Qkd6c1AzeVpjVDJvRDE4Z3lieUpsNmFsSmJDWl8yRkdtQk9GVHh5Y3p6eGJ2THJnT2JtSkR3dFE?oc=5",
-          "snippet": "Nehru, Kashmir and the Cost of the Indus Waters Treaty Frontline Magazine",
-          "source": "Frontline Magazine",
-          "published": "Tue, 11 Aug 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "How two-wheelers outpaced cars on Indian roads since Independence - Upstox",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYWpqbnRxSkZ5RGw5OFUtVl9iQVJOTk1kNHN6Vi13TzhoeXFMdGdWUk9Hd3pLTmx6U3huVUF0S0tsSG92ZXNUYnIyX2tFMXVZNlRXLU8tc1B3UE1ibVdXRk1wdHpYY3E5VGZoclZzbGliTFloWGVWbUtnUG5oMl83VjF1VTAyQWU4TE9YNU1KNjVJaTM4bzRCTm0tWTlVMFQ3YjFwa0lnRjdYZ2J6bEtzOGtPZjNZcF84dnJ4RFJOU1FTR1VwYWc?oc=5",
-          "snippet": "How two-wheelers outpaced cars on Indian roads since Independence Upstox",
-          "source": "Upstox",
-          "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "I can proudly say India’s Naxal-free, Bastar’s loss of 50 yrs will be repaired in 5: Amit Shah - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcG9KRjRleVNMR2QyM3k3cngwMVF6VmNEUGNneWQzRlhVSDRkNmtLV1pCeHZUUjhnWF9WUmpMYUNMUGUyclVvRFpsRXlLazIxalVpNWw0OGUyelNEclVHVEFwYnJsY0dzS01XRzVMTjVlTUJBbUh5aHRPMmUwa1dKNUotVjg1am1IQTFhNi16bHlmYVlOcVA0YTBMcjZyN0RPdjFyZVdnTVd4Zm5IZ1NNWmVaZTU1RTVzekJBUWg0cjFzSnlINGROT0paMVpqREtJczJwSVdVdjBwZng3TUdveGg2VXNyWGVEZnJENmZRTTRlQnJWS0Vn0gH8AUFVX3lxTE1RdWZxMEJRMllpVl9OVmJsU1Y5MnVGOVdTNEIxaE5NbjhrN1I0dHlDZnJjQTZpY3huUjdMRWlUc2l0Q05sbWpSNVhZOTBfektld2g5ZmlDb2M5WGtsd0ZLbF80VkJMLTdjQ05Temk1eWdDNENGLUN2TmdZdEl3Sm95ak9JUWN5ajkzYWlFdkRpZ1ZQYkVIOFRCSkhSRXMzSFFoWWJ4YjM5cUlEUm5mNlZvdWh3OThNbmF6dW9GQUlEZ25WTEpTME51RmREQ2NNZF9CdzZWVTNKRlVGUVVkVU4zVkFDNEduRzdmM2pFRlRMX1E1dFI0SUlHWkY0OA?oc=5",
-          "snippet": "I can proudly say India’s Naxal-free, Bastar’s loss of 50 yrs will be repaired in 5: Amit Shah The Times of India",
-          "source": "The Times of India",
-          "published": "Mon, 18 May 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Section 377 verdict: ‘Like India got independence in 1947, my sisters and I have got our freedom today’ - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMjZpOTBobzRNNTViX3MyOGtmdzB4U3RfVnIxOXNvNl80aEhIS3dYMEZpT29qa1RRblFJMF93a3dNaHB0UWhZVjRvYWpOUlZIT3lNS1BMeGNKTGRQbUdHY1c0dUxtVnk0cTVuRFBrZzdwN09pQ1BRdFJBQ09aaGtDaTlUZUFibDFjNXBrWGlxZWVObDMwQkhncV9RbXJOTlJBYUowS1M5azI2NVZZMWhMSkRRUGxwYWFKZUxpT2hyQUNxeENMMTZYRDZxSXcwNDVoWTB1UmZNYy1FOVoya2MyV0V4cW1ublg30gHvAUFVX3lxTE4wQ1c4aVdKb0tCM1NJQzlmOWw1SGgtbXE2clh0NXEtUE96V1EtR0tSY2J5MWR2V3dOOVJXdEI1ZXVkazZFVHVGOWtIVWFabXBVQXlOeVNleUlrTVZwVkhXR1EzOXFSMW5rMS1OMTFLTDd2SVVZQWhsZGtRLUZVdWJuNWlLbGdSWm9jeVMyUlNHcEp2N1VrWnRpbUlZU2h0OWxXcVVPWnBxUW9aQ0phLXRyelk4Y0V1VkExeGJsVlM1d095ZjRGYmQ2U3JObkt3ZEVLTXR5TVdGbXBKei1qbTBoRXc3VjN0VTVTMVVGSnpz?oc=5",
-          "snippet": "Section 377 verdict: ‘Like India got independence in 1947, my sisters and I have got our freedom today’ The Indian Express",
-          "source": "The Indian Express",
-          "published": "Sat, 08 Sep 2018 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Twitter Reacts to Kangana Saying We Got True Freedom in 2014, ‘Bheek’ in 1947 - The Quint",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ3FNek9DZi1jR01jRW4xSWQ3SWZNVnhxMmhIQm5sZkJCVDZ3OXNBbzRwQVRSZ0dPdGM1S29yZkU5aTZPdm5GUFFuM2p3bXpUbEQ5ZVE3X0gzNGhiYlRUXzFlUG5XOG0tNFJQSUtOTWQwU2NnLV9XVE1ONkhJaG1ERWsxVmVQeFhjUmVKTi1hYW1uRmNJWFhfNHY4NlFuMXVaRTBBNU1tUGdlVks4YU5SbVFNRFBNY0Q4elpTekxDdkNMUWd2d1FSa2pn0gHXAUFVX3lxTE5mTUhhWkJUZ0lPal9xNElnSDVaNEhrVjl1YUFqN0tjV2NsMHRwdk9reGdJQTBnajFhU2huc1oxMGM5UVA0alhLSk9walNnQWFUeGNIeEptVUptNVJDQnNqaXBFMVRDTFFQczU5VjBwSDdYWkpYUGFnU2VJREJkUUxOM3pjakh5UTJKRzBneVBwRXZ1d2RNOXNwanBaZ3BrN3M1cWJvZV9GQ25EUVl4R0ZncU9IVWtDRkt6SE41ek1qN3g0TUVsZVI5WDljdTdsZlVmRDFqU0xF?oc=5",
-          "snippet": "Twitter Reacts to Kangana Saying We Got True Freedom in 2014, ‘Bheek’ in 1947 The Quint",
-          "source": "The Quint",
-          "published": "Thu, 11 Nov 2021 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "‘Bharat Jodo Yatra: A Contemporary Discussion’ - inc.in",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeUU0MkYtaG5tZXkzdUtTY1FvVG9qc3hMVEJVZjJVLXkzMG1EMTM3dVZNN2VDREN6NW5nSy1seVFybjZYMGwwalJPWmt2bFBYem5ieENEZGYzQk9wd0VYcERQMktRODZqSjh6cElUZElQdUJVQzZaUWFuSVNVc3hQZ3NjcVI5N2dFMk9N?oc=5",
-          "snippet": "‘Bharat Jodo Yatra: A Contemporary Discussion’ inc.in",
-          "source": "inc.in",
-          "published": "Sat, 20 May 2023 02:03:43 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "The day India freed Goa from Portuguese rule - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02cHprZHlVNzc1RllUckFXNjhvWUU2UWlCSDJiU3ZMNnpiWm81UHl4Z2hJRXNIN2ZMMmdzdVVCMXN4MmtCcVlINkRVeUZObTZMRXNTZnNTdjVTMjBKQ2pJ?oc=5",
-          "snippet": "The day India freed Goa from Portuguese rule BBC",
-          "source": "BBC",
-          "published": "Tue, 19 Dec 2017 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "At PBD 2025, PM Modi urges diaspora to become force behind India’s march towards ‘Viksit Bharat 2047’ - Sarkaritel.com",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVTVDakRLVXE3SVJBeVc4UEg3eVZnN3pfbFhTREZMcnQzQjJTaVRlMTFsNUNlQ2JTWWZjdFZDWkUtZGtYVTBPdF92dlZIZFMwd2g2VmJSTm1KRXhrMXEyZVkwOFVFUEJ6QlJQMV9ieUpwSXdBYkhYRzFxZGw1bFV3bWN3elY2MXN2bGRuRHM1MVVKdmtOUkZwWTNXbVVBMDJLamZfTXFIVXNNcThUZml4ZnpfeGdyakp0dTRGRUtYRzlyNDg?oc=5",
-          "snippet": "At PBD 2025, PM Modi urges diaspora to become force behind India’s march towards ‘Viksit Bharat 2047’ Sarkaritel.com",
-          "source": "Sarkaritel.com",
-          "published": "Thu, 09 Jan 2025 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "ENG vs IND at Old Trafford: Rahul-Jaiswal register highest opening partnership since independence - WION",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQnREYVNGSC0zRC1ZZzBwc0FkeWFDS2RPMm5BLXRVT19yVzV0bGg2TVFLYzBxY3pPaGFKMmhjMldaNzJjSlBvclBrSEZGMjNkcW1lbUpaMjNzVEUtZ2s0OF9nMThrUExZcjlDTlppSEZ1bHBFdTdvYmRCcElYcmNQODVXR05nM1BmeEFqeUg4Q1dBRHNnQzUxY2pfNzNieS1XaXVTdGFIaHRDVFZDTkctV192NjZIWVgzMk9IOU1HQWMtZ0M2bHBfNDVzTFFPZ3hLSDhuTUdaNGLSAd4BQVVfeXFMT1A2LWNFczRhOGo1U0dzMzBpUU5vSzZrQkVDVmJrS2lWZWtlc0dUMkhYa2ZRU1JOMHJuUUlmWmthQzVCT0VCLUdhSWFtbkxSQy1tcmR6X0ZXYmh1RGxNVk84MXdHRVdsVzlseFNLVnM2bzhlYmE4QWw4MXdfM0ZZd3RHZVBlWnoyMF9NOVhHWFBHdkdkcnpFRHFwZmpuZU92eG5oZEg1b1dxQ0trQ0ZuSGJNaTdnYVNRRWFQLWNST0Q3d3lYN2lUMFpQTFp0YWJidjJmQ1NWUlNuQ2VMOGZR?oc=5",
-          "snippet": "ENG vs IND at Old Trafford: Rahul-Jaiswal register highest opening partnership since independence WION",
-          "source": "WION",
-          "published": "Wed, 23 Jul 2025 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Veteran Indian Journalists Discuss Democracy, Tariffs and Media at Bay Area Event - indica News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdmZEcUE0UWZKOVkyY3E3bFhmTlY2Skx4ZmJqdDdsYzRoVlJUQXdCS29QeWJTQ3VvZ3JrTXBsa3VjZG1JNW53MmtTOTNDSDVwb0x5MEZhcTlBc01QN0JtNUxuVWM2LVFoMm5wMUpWMkdNcUl5ZzhRR0xiUTRyU0RjWTVDMkFDQ0J0RzN5Y3U5ZFlMcUNfdWYwTUl2eGxhcWpVLWlhd3cxRDl3WFpoTXhPaHJLdzA?oc=5",
-          "snippet": "Veteran Indian Journalists Discuss Democracy, Tariffs and Media at Bay Area Event indica News",
-          "source": "indica News",
-          "published": "Tue, 11 Nov 2025 08:00:00 GMT",
-          "relevance": 0
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "Amaravati is the capital of Andhra Pradesh.",
-      "verdict": "SUPPORTED",
-      "confidence": 100.0,
-      "explanation": "Government reference sources identify Amaravati as the capital of Andhra Pradesh.",
-      "topic": "Geography",
-      "sources": [
-        {
-          "name": "Government of India / National Portal",
-          "url": "https://www.india.gov.in/",
-          "type": "Government"
-        }
-      ],
-      "database_match": true,
-      "database_id": "TL0001",
-      "checked_by": "TruthLens Manual Database"
-    },
-    {
-      "claim": "Amaravati is the capital of Andhra Pradesh.",
-      "verdict": "SUPPORTED",
-      "confidence": 100.0,
-      "explanation": "Government reference sources identify Amaravati as the capital of Andhra Pradesh.",
-      "topic": "Geography",
-      "sources": [
-        {
-          "name": "Government of India / National Portal",
-          "url": "https://www.india.gov.in/",
-          "type": "Government"
-        }
-      ],
-      "database_match": true,
-      "database_id": "TL0001",
-      "checked_by": "TruthLens Manual Database"
-    },
-    {
-      "claim": "India has 50 states.",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database and no relevant web evidence was retrieved. The claim remains unverified.",
-      "sources": [],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "The Sun is a star.",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database. Relevant web evidence was retrieved, but it requires further comparison before assigning a final verdict.",
-      "sources": [
-        {
-          "title": "Yes, the Sun is a star, but it’s far from typical - Big Think",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1udUlXaEtTNjQ3d19kQUNiMUtaMXltTE4ybXdncGpFVHhxVDVpV21tYi1IS1NNOW5jRXE0cUQwYkxxc2N2RmdWR1V0cXQ1SVBuT3BjcXJwdVNocDdsY2x4Ykd6V1loYW5L?oc=5",
-          "snippet": "Yes, the Sun is a star, but it’s far from typical Big Think",
-          "source": "Big Think",
-          "published": "Mon, 31 Aug 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Is a Sun a Star or a Planet? How We Know — and What Could Change - Discover Magazine",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLXlCcy1KT3l1cEs2TzFiZXRad1FpNTBMWXhIMWZDTDB1NlFHc19EZmJEWExfRlIzcVNmRGJ0QUowRDAzbHV6WGd0RjNleWlvLW8ySkRCYkVZc2U3RzFONGJiVEhobW9QbXV6Ykd1RngwZGVfVWR6RWJWQmlacVdNTmlMc0tIN3dTYTRpVWhDakY0SE1BV3l4VGo0eDB4Y181dEE?oc=5",
-          "snippet": "Is a Sun a Star or a Planet? How We Know — and What Could Change Discover Magazine",
-          "source": "Discover Magazine",
-          "published": "Fri, 07 Nov 2025 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Viewing the universe from the shoulders of giants - Dawn",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBJWElVanQ5QkJ1NWVwUkctRUViSXUyTE5RaUxaczloVUh6OGpGV0t6YUhWZ2RpSFRVbHpFU3liY3pQRWFxX1lPTdIBTkFVX3lxTE1Dc1RhQ2dFN3dsNDhiMmVnRW9Cdnlwam1lWUczZ1RBYXFwLTFjblZUemlzNmM5R2d4NTdJUHpkTGdBOW1kRUY2ZmJqWkRFUQ?oc=5",
-          "snippet": "Viewing the universe from the shoulders of giants Dawn",
-          "source": "Dawn",
-          "published": "Sat, 26 Sep 2026 00:01:08 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Solar activity follows an 11-year cycle – here’s how it controls eruptions and solar flares - The Conversation",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSEdJVkFweUdQdUJHRXBOYW8yUTNrTHJCN0RNeFptU21rSTNpcUpOYld6YXJlYkNvSXk3WjBjOENhVVlwZVBLbWhrRXBLU25GUjdfWDJZYlgtMEdJa0phV1U3eWc5cng5MTBmYVJISWZIR0lTMGhKaVNqdUdEcjl1YVZqYWVBQjlhNkxHazk0WF9lbGM4NjVpTWkwaGlHQzU1Vjl5NkswUmZMaVRxV2F5cUgwSzk0czhVT281MmlNY3o?oc=5",
-          "snippet": "Solar activity follows an 11-year cycle – here’s how it controls eruptions and solar flares The Conversation",
-          "source": "The Conversation",
-          "published": "Wed, 20 May 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Have we found first exomoon? Strange object forcing astronomers to rethink what a moon is - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZXpxQnQwTU05ZFFsVm9OSDVqcXhEZE5GSjVRSHRDbExYNVlqNjFyc3NPX1JIeU40ZlBJakYyeGJpcGJtek5rd2lmRk5fS0htblVjakZ2Tl9GWnFTWlo5THg4M1Zxd1cxNTFSVGMtTWRjSVVDaDVBYWt2Q0hzVWVXa05nY0kwWlNZTVJ2T2owSTVKQ2xqREU5VlBOYkM4dVdLbWVpalJaTFoyLUVTRFlENmNEdGtOTktXQzlwUGQ4bTZNcWJuekdwTGZIVDZSNWxJVG45V2hITk9pRmRJSXM3aUoyYzE4NUVpWGNHRm5ZWQ?oc=5",
-          "snippet": "Have we found first exomoon? Strange object forcing astronomers to rethink what a moon is The Times of India",
-          "source": "The Times of India",
-          "published": "Tue, 18 Aug 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Washington Post. . Scientists have captured the highest-resolution video of the surface of the sun ever, showing turbulent, vortex-like structures in unprecedented detail. The “surface” of the sun is really an unstable, roiling soup of plasma, heated to about 10,00 - facebook.com",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMEVLSVdXNjZWZ0JyN05MV0x0ekZiNkJOWTE1NVNXSWxvVk5FRFl0N1VTMVNUQjk4RUlhZlpyQ2dGc3JOSzN1MHhTdFEtVGhSbGNyM21RdnNZeHhtY29EVGE2R0hEMVFCdVVicWVJZHg3aDhvS0d0Mlo3TkpxdnZPOWZCY3JlS2RsclB0dVRDb3FCZDNtV1dDQ0tHTjZsTzFIbS1nVmxqSDh4UERvX0R4NFpEZk9xdXI5YVF4dl96SmFKV2J4UkFCQ256TUFJajJKYzdiNVM2bHozYjFIcFE?oc=5",
-          "snippet": "Washington Post. . Scientists have captured the highest-resolution video of the surface of the sun ever, showing turbulent, vortex-like structures in unprecedented detail. The “surface” of the sun is really an unstable, roiling soup of plasma, heated to about 10,00 facebook.com",
-          "source": "facebook.com",
-          "published": "Wed, 05 Aug 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Solar Power: Energy Source Fact File! - Fun Kids Radio",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMNVk0OTdtdWVUSVhqd3E2TEVWbURlYk05UVotTVJoNGtiemRxeEdxaU5ITDh2V3RxVW1DblBJdmd5bG11TFUyOWRvVEtHZ0xLcGRxOGJJMmZGeGh0eWw0d0VGcjNDdF9YV3I3Rmtuc0c4YkNWc3ZhaDhiOA?oc=5",
-          "snippet": "Solar Power: Energy Source Fact File! Fun Kids Radio",
-          "source": "Fun Kids Radio",
-          "published": "Sun, 27 Sep 2026 21:17:54 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Sizzling summer heat comes from inside the sun - Jersey's Best",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU1NhNzV0OTUtQWoydnJlcEMwQlFpVjY0X1QycnlBenM2a28xN3JRVVQ5NEtYQWJMTFpWTEcwX2FzYlVzWm5iNXVoUVQ1YWd5NHRGcEEwdlRyU1MtZUlGXzExYkVUcEF4LUJIRjY2RHRrWnNCYW9JbjVKNVBYWHlhY2MtQllOalRRV3ZvMEp1VGpSVXRyZlVsOENoMDNDOU0?oc=5",
-          "snippet": "Sizzling summer heat comes from inside the sun Jersey's Best",
-          "source": "Jersey's Best",
-          "published": "Sun, 21 Jun 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "See the Sun through the eyes of the world's most powerful solar telescope - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kQlJQdFJqanNLdmpBejN5dWxfejUwSHEtemJrZ3B1a19MLThMQVc0TlJUM2tPa3FPbWMwODVpcFQ5dWVfQVZpaUtIZ3FKUlR3dlRETk8tOWRNUm1IcjBQVjcwaw?oc=5",
-          "snippet": "See the Sun through the eyes of the world's most powerful solar telescope BBC",
-          "source": "BBC",
-          "published": "Thu, 06 Aug 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "6 Questions About the Sun Answered - Britannica",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rMWZ0N2dtMHd0MG9lQjRaTzNSM0pMNVkzNl8xR1FFSTRpVzNVMjlUMFBPV3ZydmRLYjRvQTk0RzYtZUFjMHI5RmQ4c3loR0hBMzd4emVBNTJPXzN2UmZZQWZPcFpRRXZUamRobkJaS3lJYnQ0?oc=5",
-          "snippet": "6 Questions About the Sun Answered Britannica",
-          "source": "Britannica",
-          "published": "Sat, 06 Nov 2021 01:21:03 GMT",
-          "relevance": 0
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "The Constitution of India came into force on 26 January 1950.",
-      "verdict": "SUPPORTED",
-      "confidence": 100.0,
-      "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
-      "topic": "Constitution & Law",
-      "sources": [
-        {
-          "name": "Constitution of India",
-          "url": "https://www.indiacode.nic.in/",
-          "type": "Primary"
-        }
-      ],
-      "database_match": true,
-      "database_id": "TL0037",
-      "checked_by": "TruthLens Manual Database"
-    },
-    {
-      "claim": "India is a democratic republic.",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database. Relevant web evidence was retrieved, but it requires further comparison before assigning a final verdict.",
-      "sources": [
-        {
-          "title": "Public patience with VIP culture wears thin - NEWSTRAIL",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9CSWFXMU0teE1Yb2ZXbFdDUDRZYlFodVVfR3lvREpPWnd2Z2FDTVNGUFdJamxGbnd1SGVldmNUQlh3Y1ptZkt2OE5zVThCTXJXVzUyZG5SbWs?oc=5",
-          "snippet": "Public patience with VIP culture wears thin NEWSTRAIL",
-          "source": "NEWSTRAIL",
-          "published": "Thu, 04 Jun 2026 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Opinion: The New Parliament Building And The Democratic Future Of India - NDTV",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOS1iZ1NlSjlEeWxHeGZFZGZ0YmNaekk2RVVrMXB0SUJjRHZDLVpiYkcxT254RGFhc0FoUGFYNTBTYXNSN19oNUxSWVdYNkFLWkhocUtzVEJOTDdXUHBXT2ZNQjZaWHFXUjR4d0pOMjBRZ1NTaXVBMGVRaUpwcWVaMWJYU0lNV2J1elhqS2ZuOHF4RUM4d185dklZSUMyWU1K0gGoAUFVX3lxTE5hdkVsNWtnVl9DU1hTNV9fdnBkdkdQb2VhOFBaejdVcm8xdGtWY05kM19lTnFZcHRvamNaWEU3TjAwTHdhS1hyckdmT1Y3VldhbmFGVFJjWmpOQllGSFNHVGJaSC0xM0VtQWloSVlWVGlkT0o5M3R0Vk5UejAxb3ZoSHlpem90eGpKSWRncGIwdFFCWEpZNWdpRWtWNm5ScC1FVmo4ZW9DRA?oc=5",
-          "snippet": "Opinion: The New Parliament Building And The Democratic Future Of India NDTV",
-          "source": "NDTV",
-          "published": "Sun, 28 May 2023 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "UAPA Amendment : Why Giving Govt Power To Declare Individuals 'Terrorists' Is Problematic? - Live Law",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWVBPZW5la0psN0pTcUktSWY0MnVlMmprcGZlbjNfZG8xQzRNX1hCNkFybjBaS3pDb3BHVy1GU0g0OVdGTmRXUVM2dC1wN0tZRDZtMGstTk5mVU15bWlReTU3WFRoUlprd19RM3N2VUoyb0VGbk1IbDk0Z2h3Z2lTTlFRU1RPNmFRTmVOZTBxU0dwVXF5WUp5bk5uX3RzUdIBowFBVV95cUxQRUFTWHEzSmJQb2hTbVQ2TGVsYmwySFBpRXVpR1lIMVZHcjhUMDlFSkNnRWJ0OFBDNW5sWFhYNDU3dXVBdzFyb3pQN24yQ2dsLUNUdjRQc0VrRWdJTFItcUZabFRiTWZZWTV6dG91TG9ZWFV1cmd1N2ZDeElqSnFUMTNaaGF5cmdlckxyZGVTbWFYTFlVRVpRdGtsc1JiV1VEWEhJ?oc=5",
-          "snippet": "UAPA Amendment : Why Giving Govt Power To Declare Individuals 'Terrorists' Is Problematic? Live Law",
-          "source": "Live Law",
-          "published": "Sat, 27 Jul 2019 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Tamil Nadu: NEP is anti-people, says ex-SC judge V Gopala Gowda - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZks3S290ZEllT3dfNHl2Y25YSG1meGVTRGpwY3ZBYmY1OXFxSlZsLUYwRjMtVDJ3bzVoWExlNmdhYWJ2dFpuRU03SnBTVXUzM3dPX2x0SXhKVWY4NVhrc2xQYldvR0YwWUx1Mkk3NTBKVXhtcmczTFJ0cTc1Y1BKN3l3R2NqTmZLYW8zOTdjcTJxZDhhdkJyUGF1aVJnRmZNa1FrYzFkTnluaVRjcmZhclEyQzE5enh5cHl3YWJRbHRPR1AwV2hIcUc4TjdPY28w0gHWAUFVX3lxTFBUcnVoVlVKdThXYXB5dHhMSzZHVXljOVpZY05RcXh0UlYzUUpuVHVENW1HS25tOEQxT3E4OWdLeDl2cnVhTk4zME5wcXJXUnN2ZEx4Z09Mam9vNUVkTGhTQjRka2l2NGh2ZU56dUtNdUw0cF9hRFhSU0RmQWJLdXliaEJCV2JQTjMtcGdNYnNocTZTWjkxQUpYbmRlMHFCcFNhOGk1YlZlbG9feG1ybDB2clY1c1otVDdVdy1wQnpucTF1RjFZM1BxbVJrRXdBcFJWQUlwcnc?oc=5",
-          "snippet": "Tamil Nadu: NEP is anti-people, says ex-SC judge V Gopala Gowda The Times of India",
-          "source": "The Times of India",
-          "published": "Fri, 17 Jun 2022 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Government rejects EC suggestion on cooling off period for bureaucrats to join politics - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQR2hLeXBYTzVRa2ZOUGJQa0h5UVl6RDFQVEpvRTN0clEzSEhOUkRfZFJHYTBfNDhmMmw3NTZJSVlMX0JOcmpFa2o2ZzNVZ0JPdkY3MTV3bXJ2SjBFTXFtdVUtMDZWVHI3QjlzdWZ6M3BVeE5kMW1rcHd0MXEzOG14UlhOc2RLZVlIXzJjcWE2NlpwcFpoaFRhaGtvVWdkTnIwNkMtNHh6LThUVFg1OG9tNkRjcmd5YnlNaF9LSVJQN3QwUXlSVFdZQWNGNS1sN21nSm9MWURKbmxxZVpFeUVRemVUczjSAfIBQVVfeXFMTU5JZER1OFFkTlNDZlVhLTZqRVVoaDNSNjdBa0VORExkMGxxWHd6RkZ6VW5Cb2xGdEs4NWxLc09oc3B0Ri1GdVM1cUxnWHlUa2JEYkFXXzI3QkM3REgwZmdWOGhHUGF3djZycE0wNFluV0o2czRTcnBWWldKNGpzOHNyLWppX0sxZWRjY251Sjg3NDJrSjhnbVB5dkRaY2ZuWnhxalY1YVhiVTBCb283WlFRN0ZaSndCSXRvRDcwZVhhaHVTd1BqZ3J3d2hhelJTYUh3UWh2QVdTVVVURlpic1ZzLWhSUWxCSkF5dVZPSTh1eFE?oc=5",
-          "snippet": "Government rejects EC suggestion on cooling off period for bureaucrats to join politics The New Indian Express",
-          "source": "The New Indian Express",
-          "published": "Sun, 06 Oct 2013 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Judicial appointments and the Collegium system in India - Bar and Bench",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOUM3RjJjQzUzdmg1WXNGS3pqM0lRc1ZmZTRfTWRtWDdvdWhjRGpROHpuSXhVRlpfRm00ZjR3ZXZZbkk3WktMbmRSdzdMTGtZTU14NGUxU2xCRGp4ZXdWS0lpMnlhZHZhZTNWNkZqMjdQM2w1QXZGRHFqUGV4eGNSYWhxWE44UGFSQzV2R29YR2czb2FkblHSAaMBQVVfeXFMTXYtWVkySkljSXU4S1J0c2JqV1l5UEx3c1VqNXNPdGEzS2l2Q2Jtb2ZsTGJxR0drV0VKWVFVNTd2Y29HWWl4QmlHb2dWNmtwcm1CYzhHMkkyX196OTQ5LXhUdDdXd2NteDJManZsRE52eHhoVUJJQzNYUzJMdlVYVm1BVk9sak9pTFZZd05jS193NkJRaHJjWEFOelh2MHdKTnMwUQ?oc=5",
-          "snippet": "Judicial appointments and the Collegium system in India Bar and Bench",
-          "source": "Bar and Bench",
-          "published": "Sat, 29 Nov 2025 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Centre may not be in favour of compulsory military training - theweek.in",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbFpLM2FOM0R0MWZhSjM4M0xoOVBrS0JETWg3Z3BfLTBVUU8xTVgzT1dwbEpCMDBmOWl1bHVHSTNWdEY5T2xZb3NyQ3N1WmZqekExMVd2Rkc4bUtvYnBRdEpGVWdIclJSSDJMbXM2Y0xlSTVWdlhQTUFQMzY0RUNOS0dmYTljUGx4UXMxdWpIWlpnODVCYlFxQjBYTGpCM0xJMEdGN2hOZUk3NFRjb1HSAbMBQVVfeXFMT2ZaZWlxWFpEeTRHRlZqODVGY3JnYVlzNGpRb3oxdW9XVGktVUw1ZC1jSDhUM2tvYmc0TlBVSWw5YjBsRThBRXRmN1YtcHZLdmV1TnJlRFprRThwMV81bnpXc2ZWRnAzbWw0TVJNT2kzT1FaOVZ0WFgtRjk2elNFUFI2WlJaSXIyT2Y4V1BPejZ1SkllMGFGY2c4N3RqZHgtNEZSSVZEQWhLZGZsYVFTTThkZm8?oc=5",
-          "snippet": "Centre may not be in favour of compulsory military training theweek.in",
-          "source": "theweek.in",
-          "published": "Sat, 17 Mar 2018 07:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "26 January: Republic Day of India - RitiRiwaz",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGeGlPUjNHN3MxcXdRQUwtcllOT2dwQ09wOTVkMV85SThaVkZtTFVUdk5JelFRcl9PS05tbzRJUHd0ZS12S1o1TW1TQUZmSXVZellHS09qcjY5Sm41ZGpEdVB2ZnA0ZGE5cFhj?oc=5",
-          "snippet": "26 January: Republic Day of India RitiRiwaz",
-          "source": "RitiRiwaz",
-          "published": "Thu, 02 Feb 2017 00:56:03 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "Delhi CM List: Chief Ministers of Delhi Party Names and Tenure ⦗𝟭𝟵𝟱𝟮 - 𝟮𝟬𝟮𝟱⦘ - Jagran Josh",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM1R1VWJZeE5Ec2VjazFPSWxxZlI4UDRsWGVPTEtvVk5HTkR0d2RHRTVSclNMdzFpVEkwXzBvSk53MGM2MmJUekYybkRNQTN3MkNKZkE2NjRSVHRCbzZDRk9KYnZKWWNrNlRqS3hCSjUyUmF3QVhYVm5pcWE1Q2ZGbmMwSkZrUXVvWUh6Wjg0clpYTHk0QmVKUElvcjRSSjROVkpHMmZTUlJYUkszU0E?oc=5",
-          "snippet": "Delhi CM List: Chief Ministers of Delhi Party Names and Tenure ⦗𝟭𝟵𝟱𝟮 - 𝟮𝟬𝟮𝟱⦘ Jagran Josh",
-          "source": "Jagran Josh",
-          "published": "Thu, 20 Feb 2025 08:00:00 GMT",
-          "relevance": 0
-        },
-        {
-          "title": "This power of the privileged ! - The Jerusalem Post",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMjN1US1Mel9qV2tBRFFBdHFPanMzTE5nREt4emJHWDdabzJzNWdBUVE1UWVrbDA1cmJBUmhpWlFIOTc3NzdPQ1BqXzZqZzZEamx6aklOY0l6Xzh6UXNyd01GQTZOek1oSFA0RmkyOVlBUmJKTjVybkF3MDZOdDdfWGxR?oc=5",
-          "snippet": "This power of the privileged ! The Jerusalem Post",
-          "source": "The Jerusalem Post",
-          "published": "Wed, 15 Feb 2017 08:00:00 GMT",
-          "relevance": 0
-        }
-      ],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "India has 50 states.",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database and no relevant web evidence was retrieved. The claim remains unverified.",
-      "sources": [],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "The Constitution of India came into force on 26 January 1950.",
-      "verdict": "SUPPORTED",
-      "confidence": 100.0,
-      "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
-      "topic": "Constitution & Law",
-      "sources": [
-        {
-          "name": "Constitution of India",
-          "url": "https://www.indiacode.nic.in/",
-          "type": "Primary"
-        }
-      ],
-      "database_match": true,
-      "database_id": "TL0037",
-      "checked_by": "TruthLens Manual Database"
-    },
-    {
-      "claim": "india got indepence in 1947.",
-      "verdict": "UNVERIFIED",
-      "confidence": 0,
-      "explanation": "No sufficiently close match was found in the TruthLens manual database and no relevant web evidence was retrieved. The claim remains unverified.",
-      "sources": [],
-      "database_match": false,
-      "checked_by": "TruthLens Live Search"
-    },
-    {
-      "claim": "The Constitution of India came into force on 26 January 1950.",
-      "verdict": "SUPPORTED",
-      "confidence": 100.0,
-      "explanation": "Article 394 provides for commencement of the Constitution; 26 January 1950 is observed as Republic Day.",
-      "topic": "Constitution & Law",
-      "sources": [
-        {
-          "name": "Constitution of India",
-          "url": "https://www.indiacode.nic.in/",
-          "type": "Primary"
-        }
-      ],
-      "database_match": true,
-      "database_id": "TL0037",
-      "checked_by": "TruthLens Manual Database"
-    }
-  ]
-}
+        ],
+        "verified_date": "2026-09-27",
+        "url": "",
+        "snippet": "Existing database verdict: SUPPORTED. RBI describes itself as India's central bank and carries out functions assigned to it by law.",
+        "source": "TruthLens Local Database",
+        "evidence_type": "local_database",
+        "relevance": 0.2921,
+        "evidence_analysis": {
+          "supports": 0.0,
+          "refutes": 0.0,
+          "neutral": 0.9732112288475037,
+          "label": "NEUTRAL"
+        },
+        "domain": ""
+      }
+    ],
+    "checked_by": "TruthLens Live Search + Local Database + BART NLI"
+  }
+]
