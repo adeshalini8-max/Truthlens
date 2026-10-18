@@ -1,0 +1,19 @@
+
+[
+  {
+    "claim": "India became independent in 1947",
+    "expected_verdict": "SUPPORTED"
+  },
+  {
+    "claim": "India became independent in 1950",
+    "expected_verdict": "REFUTED"
+  },
+  {
+    "claim": "India became a republic in 1950",
+    "expected_verdict": "SUPPORTED"
+  },
+  {
+    "claim": "The Earth is the center of the Solar System",
+    "expected_verdict": "REFUTED"
+  }
+]
